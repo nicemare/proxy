@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4527** proxies at the latest update. Usable proxies are below.
+> Scraper found **4434** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|222|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|222|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|222|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|95|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|95|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|95|
 
 ## Sources
 
@@ -32,37 +32,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|191|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|719|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|479|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|279|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2255|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|299|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2273|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.236|3128|United States|Ashburn|Sprint|
-|2|157.230.239.42|1337|United States|North Bergen|DigitalOcean, LLC|
-|3|45.152.188.236|3128|United States|Ashburn|Sprint|
-|4|157.230.239.42|1337|United States|North Bergen|DigitalOcean, LLC|
-|5|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|6|51.79.87.150|13050|Canada|Beauharnois|OVH SAS|
-|7|183.89.114.136|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|8|45.233.67.223|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
-|9|103.156.14.192|8181|Indonesia|Balailangu|PT Lintas Jaringan Nusantara|
-|10|103.106.219.135|8080|Indonesia|Pasuruan|PT. ARTHA LINTAS DATA MANDIRI|
-|11|103.118.152.33|8080|Bangladesh|Dhaka|NEXTGENONLINE|
-|12|20.54.56.26|8080|Ireland|Dublin|Microsoft Corporation|
-|13|186.248.89.6|5005|Brazil|Ibirite|AMERICAN TOWER DO BRASIL-COMUNICAÇÂO MULTIMÍDIA LT|
-|14|201.249.152.174|999|Venezuela|Punto Fijo|CANTV Servicios, Venezuela|
-|15|20.24.181.133|80|Singapore|Singapore|Microsoft Corporation|
-|16|103.242.105.138|8181|Indonesia|Kediri|PT Lintas Jaringan Nusantara|
-|17|24.109.252.48|80|Canada|Vancouver|Shaw Communications Inc.|
-|18|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
-|19|147.28.155.79|3128|United States|Dallas|Packet Host, Inc.|
-|20|212.12.69.43|8080|Russia|Moscow|Telecommunication Center Ostankino|
+|1|45.174.168.2|999|Mexico|Tulancingo|Wiiki Networks S De R.l. De C.V.|
+|2|80.65.28.57|30962|Russia|Krasnoyarsk|Orion Telecom LLC|
+|3|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|4|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|5|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|6|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|7|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|8|111.225.153.74|8089|China|Gaocheng|Chinanet|
+|9|181.209.82.154|23500|Argentina|Dean Funes|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
+|10|89.218.186.134|3128|Kazakhstan|Pavlodar|Kazakhtelecom Data Network Administration|
+|11|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|12|45.171.146.192|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
+|13|114.116.2.116|8001|China|Beijing|China Unicom Beijing Province Network|
+|14|122.3.41.154|8090|Philippines|Quezon City|Philippine Long Distance Telephone Co.|
+|15|177.234.236.4|999|Ecuador|Machala|Nedetel S.A.|
+|16|183.89.145.62|8080|Thailand|Nonthaburi|Triple T Broadband Public Company Limited|
+|17|190.102.226.196|999|Chile|Casablanca|Pacifico Cable SPA.|
+|18|181.78.15.105|999|Colombia|Medellín|IFX Networks Argentina S.R.L|
+|19|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|20|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
 
 
 
