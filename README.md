@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4596** proxies at the latest update. Usable proxies are below.
+> Scraper found **4942** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|218|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|218|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|218|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|821|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|905|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|125|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|387|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2267|✅|
 
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|142.132.191.196|80|Germany|Falkenstein|Hetzner Online GmbH|
-|2|183.89.119.232|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
-|3|8.242.187.228|999|Colombia|Quinchia|CTL Colombia|
-|4|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|5|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|6|183.89.114.65|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|7|172.105.184.208|8001|Australia|Sydney|Linode, LLC|
-|8|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|9|121.101.133.70|8080|Indonesia|Kebumen Satu|TERABIT|
-|10|188.132.222.6|8080|Turkey|Istanbul|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
-|11|66.94.111.80|9999|United States|St Louis|Contabo Inc.|
-|12|91.92.209.170|8080|Iran|Tehran|TIC|
-|13|93.175.204.173|8080|Ukraine|Ivano-Frankivsk|Teleradiocompany Discovery Ltd|
-|14|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|15|182.253.93.4|53281|Indonesia|Gresik|BIZNET|
-|16|185.117.122.165|8080|Turkey|Antalya|Fibim Fibernet GSM Sanayi VE Ticaret Anonim Sirketi|
-|17|45.225.184.206|999|Chile|Melipilla|MJL NETWORK EIRL|
-|18|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|62.33.136.222|8080|Russia|Kursk|Joint Stock Company TransTeleCom|
-|20|142.132.191.196|80|Germany|Falkenstein|Hetzner Online GmbH|
+|2|157.100.56.181|999|Ecuador|Cariamanga|Nedetel S.A.|
+|3|101.51.172.104|8080|Thailand|Ban Chang|TOT Public Company Limited|
+|4|147.182.207.176|8080|United States|Santa Clara|DigitalOcean, LLC|
+|5|91.144.77.20|18080|Hungary|Kiskunfelegyhaza|"ANTENNA HUNGARIA" Magyar Musorszoro es Radiohirkozlesi Zartkoruen Mukodo Reszv|
+|6|102.130.133.102|53281|South Africa|Johannesburg|JHB-MPLS|
+|7|101.255.16.102|8080|Indonesia|Bekasi|PT Remala Abadi|
+|8|183.89.114.65|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
+|9|159.192.138.170|8080|Thailand|Tha Muang|CAT-BB|
+|10|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|11|124.41.240.96|55443|Nepal|Parsa|WorldLink Communications|
+|12|93.175.204.173|8080|Ukraine|Ivano-Frankivsk|Teleradiocompany Discovery Ltd|
+|13|45.171.146.192|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
+|14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|15|85.214.124.194|5001|Germany|Berlin|Strato AG|
+|16|62.33.136.222|8080|Russia|Kursk|Joint Stock Company TransTeleCom|
+|17|66.128.123.114|8080|United States|St Louis|Spectrum|
+|18|96.95.164.41|3128|United States|Avon|Comcast Cable Communications, LLC|
+|19|123.182.58.208|8089|China|Zhangjiakou|Chinanet|
+|20|123.182.58.36|8089|China|Zhangjiakou|Chinanet|
 
 
 
