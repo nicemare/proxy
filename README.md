@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4374** proxies at the latest update. Usable proxies are below.
+> Scraper found **4596** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|599|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|821|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|125|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2267|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|181.49.217.254|8080|Colombia|Bogotá|Telmex Colombia S.A.|
-|2|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|3|211.20.112.1|5168|Taiwan|Hsinchu County|Chunghwa Telecom Co., Ltd.|
-|4|38.49.129.43|999|Mexico|Irapuato|Ientc S De RL De CV|
-|5|92.249.122.108|61778|Ukraine|Kyiv|Private "Stock company "Sater"|
-|6|47.180.214.9|3128|United States|Long Beach|Frontier Communications of America, Inc.|
-|7|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|8|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|9|157.100.56.180|999|Ecuador|Cariamanga|Nedetel S.A.|
-|10|176.193.77.87|8080|Russia|Cheboksary|Net By Net Holding LLC|
-|11|182.253.93.4|53281|Indonesia|Gresik|BIZNET|
-|12|45.189.118.74|999|Peru|Lima|Fiber Digital S.R.L|
-|13|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|14|202.168.69.228|8080|Malaysia|Petaling Jaya|Allo Technology Sdn. Bhd.|
-|15|176.241.142.3|8081|Ukraine|Kyiv|PRIVATE JOINT STOCK COMPANY "DATAGROUP"|
-|16|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|17|187.45.127.87|20183|Brazil|Maravilha|Mhnet Telecom|
-|18|185.117.122.165|8080|Turkey|Antalya|Fibim Fibernet GSM Sanayi VE Ticaret Anonim Sirketi|
-|19|165.16.45.92|7777|Libya|Sirte|Aljeel Aljadeed For Technology|
-|20|183.134.205.176|7890|China|Hangzhou|Chinanet|
+|1|142.132.191.196|80|Germany|Falkenstein|Hetzner Online GmbH|
+|2|183.89.119.232|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
+|3|8.242.187.228|999|Colombia|Quinchia|CTL Colombia|
+|4|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|5|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|6|183.89.114.65|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
+|7|172.105.184.208|8001|Australia|Sydney|Linode, LLC|
+|8|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|9|121.101.133.70|8080|Indonesia|Kebumen Satu|TERABIT|
+|10|188.132.222.6|8080|Turkey|Istanbul|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|11|66.94.111.80|9999|United States|St Louis|Contabo Inc.|
+|12|91.92.209.170|8080|Iran|Tehran|TIC|
+|13|93.175.204.173|8080|Ukraine|Ivano-Frankivsk|Teleradiocompany Discovery Ltd|
+|14|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|15|182.253.93.4|53281|Indonesia|Gresik|BIZNET|
+|16|185.117.122.165|8080|Turkey|Antalya|Fibim Fibernet GSM Sanayi VE Ticaret Anonim Sirketi|
+|17|45.225.184.206|999|Chile|Melipilla|MJL NETWORK EIRL|
+|18|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|62.33.136.222|8080|Russia|Kursk|Joint Stock Company TransTeleCom|
+|20|142.132.191.196|80|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
