@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5046** proxies at the latest update. Usable proxies are below.
+> Scraper found **4760** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|350|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|350|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|350|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|302|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|302|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|302|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|648|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|627|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|468|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2547|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|421|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2329|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|2|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|160.19.95.121|1337|Spain|Madrid|Stallion Network Services Limited|
-|4|92.119.34.121|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|5|37.112.57.47|8080|Russia|Bryansk|CJSC "ER-Telecom Holding" Bryansk branch|
-|6|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|7|155.4.244.133|80|Sweden|Stockholm|Bahnhof AB|
-|8|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|9|213.32.75.88|9300|France|Gravelines|OVH SAS|
-|10|131.161.239.193|8090|Argentina|San Miguel de Tucumán|Tucuman BBS S.R.L.|
-|11|193.141.65.48|808|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|12|45.236.105.163|999|Ecuador|Quito|Eliana Vanessa Morocho Oña|
-|13|194.233.84.239|80|Singapore|Singapore|Contabo Asia Private Limited|
-|14|85.214.124.194|5001|Germany|Berlin|Strato AG|
-|15|189.204.221.99|8080|Mexico|Emiliano Zapata|Operbes, S.A. de C.V.|
-|16|177.234.217.92|999|Ecuador|Quito|Nedetel S.A.|
-|17|144.217.131.61|3148|Canada|Beauharnois|OVH Hosting|
-|18|143.244.133.78|80|India|Bengaluru|DigitalOcean, LLC|
-|19|172.93.231.253|3128|United States|Buffalo|Nexeon Technologies, Inc.|
-|20|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|1|92.119.34.121|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|2|160.19.95.121|1337|Spain|Madrid|Stallion Network Services Limited|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|178.32.116.64|3128|France|Roubaix|OVH SAS|
+|5|193.233.207.91|8000|United States|Wilmington|Baxet Group Inc.|
+|6|193.233.207.91|8000|United States|Wilmington|Baxet Group Inc.|
+|7|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|8|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
+|9|85.214.124.194|5001|Germany|Berlin|Strato AG|
+|10|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|11|190.121.207.58|999|Guatemala|Guatemala City|CENTRAL DE REDES Y COMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA|
+|12|163.172.210.222|4542|Netherlands|Amsterdam|Online SAS NL|
+|13|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|14|157.90.205.166|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|15|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|16|190.152.5.126|53040|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
+|17|134.209.96.9|443|Singapore|Singapore|DigitalOcean, LLC|
+|18|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|20|103.138.71.29|3125|Indonesia|Kurintji|PT Centronet Data Indonesia|
 
 
 
