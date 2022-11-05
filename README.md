@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4055** proxies at the latest update. Usable proxies are below.
+> Scraper found **4244** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|101|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|101|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|101|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|116|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|116|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|116|
 
 ## Sources
 
@@ -31,11 +31,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|394|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|399|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|155|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|239|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2223|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|2|172.105.184.208|8001|Australia|Sydney|Linode, LLC|
-|3|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|1|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
+|2|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
 |4|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|5|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|6|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|7|46.229.215.224|3128|Russia|St Petersburg|TIMEWEB|
-|8|84.204.40.155|8080|Russia|Moscow|PJSC MegaFon|
-|9|103.106.112.18|1234|Indonesia|Metro|SMSNET|
-|10|177.52.221.245|999|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
-|11|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|182.253.70.207|8080|Indonesia|Sidoarjo|BIZNET|
-|13|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|14|83.220.47.146|8080|Russia|Moscow|GARS|
-|15|77.236.237.177|8080|Russia|Moscow|Enforta-MSK|
+|5|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|103.132.53.176|3127|Indonesia|Bondowoso|PT Adeaksa Indo Jayatama|
+|7|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|8|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|9|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|10|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|11|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|12|103.106.112.18|1234|Indonesia|Metro|SMSNET|
+|13|103.215.207.54|83|India|Kanker|Gurudev Communication|
+|14|186.208.139.192|8080|Brazil|Pauliceia|Abcrede Provedor De Internet Eireli|
+|15|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
 |16|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|17|159.65.184.186|8082|United States|Clifton|DigitalOcean, LLC|
+|17|202.131.159.222|80|India|Bengaluru|Convergent Telecom Private Limited|
 |18|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|19|123.182.59.227|8089|China|Zhangjiakou|Chinanet|
-|20|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|19|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|20|5.61.24.62|3333|Iran|Rasht|Negah Roshan Pars Company|
 
 
 
