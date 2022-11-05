@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4435** proxies at the latest update. Usable proxies are below.
+> Scraper found **4585** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|171|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|171|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|171|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|480|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|532|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|217|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|315|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2355|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|2|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|3|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|4|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|5|93.191.96.4|3128|Belarus|Minsk|Unitary enterprise A1|
-|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|7|119.76.142.185|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
-|8|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|37.17.9.144|8080|Belarus|Minsk|A1 BLR|
-|10|155.4.244.133|80|Sweden|Stockholm|Bahnhof AB|
-|11|94.103.85.88|9300|Russia|Moscow|VDSINA|
-|12|138.0.231.202|999|Honduras|Santa Rosa de Copán|Multicable De Honduras|
-|13|196.202.215.143|41890|Kenya|Nairobi|BROADBAND-ADSL|
-|14|41.205.24.45|8080|Cameroon|Douala|MTN Network Solutions (Cameroon)|
-|15|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|16|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|17|189.90.241.30|5566|Brazil|Joao Monlevade|Companhia Itabirana Telecomunicações Ltda|
-|18|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
-|19|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|20|177.92.142.65|8080|Brazil|Palmas|ZAP TELECOM LTDA|
+|1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|2|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|178.32.116.64|3128|France|Roubaix|OVH SAS|
+|4|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|6|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|7|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|8|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|9|190.232.82.1|8080|Peru|Cutervo|Telefónica del Perú|
+|10|103.148.192.83|8082|Indonesia|Bandung|PT. Akashia Thuba Jaya|
+|11|110.77.236.176|8080|Thailand|Lue Amnat|CAT Telecom Public Company Limited|
+|12|179.216.23.97|80|Brazil|Criciúma|Claro NXT Telecomunicacoes Ltda|
+|13|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|14|223.205.77.195|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
+|15|189.232.81.59|8080|Mexico|Atitalaquia|Uninet S.A. de C.V.|
+|16|173.167.76.202|3128|United States|East Earl|Comcast Cable Communications, LLC|
+|17|160.3.168.70|8080|United States|Gulfport|CABLE ONE, INC.|
+|18|178.32.116.64|3128|France|Roubaix|OVH SAS|
+|19|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|88.255.102.40|8080|Turkey|Istanbul|TurkTelekom|
 
 
 
