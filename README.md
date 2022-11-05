@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5375** proxies at the latest update. Usable proxies are below.
+> Scraper found **5329** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|457|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|457|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|457|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|376|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|376|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|376|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|860|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|843|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|616|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|587|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2516|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|160.19.95.121|1337|Spain|Madrid|Stallion Network Services Limited|
-|2|92.119.34.121|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|3|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|4|15.235.143.16|3125|Singapore|Singapore|OVH SAS|
-|5|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
-|6|198.52.97.210|59394|United States|Santa Clarita|Multacom Corporation|
-|7|93.191.96.4|3128|Belarus|Minsk|Unitary enterprise A1|
-|8|176.196.250.86|3128|Russia|Kemerovo|Goodline.info|
-|9|193.141.65.48|808|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|10|87.255.12.183|3129|Russia|Khimki|BIG TELECOM CLOSED JSC|
-|11|190.107.233.232|999|Ecuador|Hacienda Ibarra|CINECABLE TV|
-|12|111.68.24.113|3127|Indonesia|Pundong|GMEDIA|
-|13|110.139.128.232|3127|Indonesia|Banjarmasin|PT. TELKOM INDONESIA|
-|14|45.228.235.26|999|Guatemala|Guatemala City|Inversiones Grajeda Andrade S.A|
-|15|168.228.49.161|8080|Costa Rica|San Ramon|Cooperativa de Electrificación Rural de San Carlos R.L. (Coopelesca R.L.)|
-|16|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|201.174.152.186|999|Mexico|Aguascalientes|Transtelco Inc|
-|18|170.246.85.38|50991|Ecuador|Cuenca|Servicable Cia. Ltda.|
-|19|102.38.9.82|8080|Libya|Tripoli|GKA|
-|20|172.93.231.253|3128|United States|Buffalo|Nexeon Technologies, Inc.|
+|1|178.32.116.64|3128|France|Roubaix|OVH SAS|
+|2|144.22.137.48|3128|Brazil|São Paulo|Oracle Corporation|
+|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|4|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
+|5|194.233.84.239|80|Singapore|Singapore|Contabo Asia Private Limited|
+|6|118.97.156.98|8080|Indonesia|Palembang|PT. TELKOM INDONESIA|
+|7|120.89.90.154|8181|Indonesia|Cianjur|PT. Java Digital Nusantara|
+|8|193.141.65.48|808|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
+|9|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|10|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|201.174.152.190|999|Mexico|Aguascalientes|Transtelco Inc|
+|12|23.224.33.106|20354|United States|Los Angeles|Cnservers LLC|
+|13|189.164.66.5|10101|Mexico|Amozoc de Mota|Uninet S.A. de C.V|
+|14|37.53.103.4|3128|Ukraine|Kyiv|UKRTELECOM|
+|15|70.90.138.109|8080|United States|Northville|Comcast Cable Communications, LLC|
+|16|41.75.85.22|8080|Nigeria|Lagos|Mainone Cable Company|
+|17|138.59.187.10|666|Brazil|Sao Francisco do Conde|Art Compus Serviços de Comunicação Multimídia Ltd|
+|18|200.7.10.158|8080|Brazil|Itumbiara|Conexao Telematica LTDA|
+|19|65.18.114.254|55443|Myanmar|Yangon|Telecom International Myanmar Company Limited|
+|20|201.197.202.244|8080|Costa Rica|Tres Rios|Instituto Costarricense de Electricidad y Telecom.|
 
 
 
