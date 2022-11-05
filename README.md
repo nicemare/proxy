@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4810** proxies at the latest update. Usable proxies are below.
+> Scraper found **4912** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|228|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|228|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|228|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|289|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|289|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|289|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|745|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|832|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|389|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|404|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2293|✅|
 
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|2|177.43.72.251|3128|Brazil|Brasília|Vivo|
-|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|4|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|5|36.95.27.225|8080|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
-|6|161.77.221.94|3129|United States|Springfield|Crocker Communications|
-|7|161.77.218.49|3129|United States|Springfield|Crocker Communications|
-|8|161.77.218.163|3129|United States|Springfield|Crocker Communications|
-|9|103.17.244.232|8080|Indonesia|Semarang|PT Media Sarana Data|
-|10|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
-|11|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
-|12|161.77.218.49|3129|United States|Springfield|Crocker Communications|
-|13|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|82.209.219.61|2222|Belarus|Minsk|Republican Unitary Telecommunication Enterprise Beltelecom|
-|15|182.253.70.207|8080|Indonesia|Sidoarjo|BIZNET|
-|16|188.133.152.247|1256|Russia|Moscow|Enforta-MSK|
-|17|201.222.83.145|999|Bolivia|Santa Cruz|Cotas Ltda.|
-|18|121.101.132.6|8080|Indonesia|Yogyakarta|TERABIT|
-|19|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|20|157.230.34.219|3128|Singapore|Singapore|DigitalOcean, LLC|
+|2|92.119.34.121|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|3|160.19.95.121|1337|Spain|Madrid|Stallion Network Services Limited|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|38.7.129.49|999|Dominican Republic|Santiago de los Caballeros|DLD SERVICIO SRL|
+|6|161.77.216.245|3129|United States|Springfield|Crocker Communications|
+|7|116.58.232.97|8080|Thailand|Nong Khaem|CAT-BB|
+|8|161.77.216.44|3129|United States|Springfield|Crocker Communications|
+|9|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|10|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|34.82.24.229|5555|United States|The Dalles|Google LLC|
+|12|103.154.231.131|8080|Indonesia|Babat|DIGITNET|
+|13|27.79.130.234|4015|Vietnam|Hai Duong|Viettel Corporation|
+|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|15|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|16|190.107.233.227|999|Ecuador|Hacienda Ibarra|CINECABLE TV|
+|17|45.181.224.130|999|Venezuela|Naguanagua|CHIRCALNET TELECOM, C.A.|
+|18|85.117.56.147|8080|Georgia|Tbilisi|Caucasus Online Ltd.|
+|19|117.4.115.169|8080|Vietnam|Hanoi|Viettel Corporation|
+|20|34.125.246.223|80|United States|Las Vegas|Google LLC|
 
 
 
