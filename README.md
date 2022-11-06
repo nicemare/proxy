@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4300** proxies at the latest update. Usable proxies are below.
+> Scraper found **4502** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|119|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|119|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|119|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|233|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|233|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|233|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|388|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|603|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|299|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|286|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2230|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|173.212.229.53|3128|Germany|Nuremberg|Contabo GmbH|
-|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|5|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|176.56.107.222|44887|Spain|Cehegín|Aire Networks|
-|7|58.215.219.2|8000|China|Yanqiao|Chinanet|
-|8|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|9|123.182.59.61|8089|China|Zhangjiakou|Chinanet|
-|10|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|11|123.171.1.5|8089|China|Xintai|Chinanet|
-|12|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|13|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|15|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|16|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|123.182.59.132|8089|China|Zhangjiakou|Chinanet|
-|18|62.60.160.252|9000|Iran|Tehran|host-ir|
-|19|181.129.2.90|8081|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|20|157.230.34.152|41347|Singapore|Singapore|DigitalOcean, LLC|
+|1|185.204.171.220|8118|Netherlands|Amsterdam|Softqloud GmbH|
+|2|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|5|190.115.4.51|999|Guatemala|Guatemala City|Ufinet Panama S.A.|
+|6|191.97.16.126|999|Venezuela|Caracas|INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)|
+|7|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|8|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
+|9|213.222.34.200|53281|Bulgaria|Sliven|A1 Bulgaria EAD|
+|10|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|11|186.195.80.84|8080|Brazil|Bom Despacho|Vero S.A|
+|12|103.148.192.83|8082|Indonesia|Bandung|PT. Akashia Thuba Jaya|
+|13|170.84.213.195|8080|Argentina|Rafaela|Wiltel Comunicaciones SA|
+|14|143.244.133.78|80|India|Bengaluru|DigitalOcean, LLC|
+|15|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|16|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|17|41.60.235.176|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
+|18|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|19|213.226.11.149|41878|Bulgaria|Sofia|Mobiltel EAD|
+|20|129.205.182.201|8081|South Africa|Cape Town|Seacom Western Cape (Pty) Ltd|
 
 
 
