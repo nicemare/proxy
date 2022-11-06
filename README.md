@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4296** proxies at the latest update. Usable proxies are below.
+> Scraper found **4395** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|165|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|165|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|165|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|247|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|247|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|247|
 
 ## Sources
 
@@ -31,9 +31,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|537|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|536|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|246|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2230|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|3|4.233.217.137|8888|France|Paris|Microsoft Corporation|
-|4|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|5|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
-|6|110.34.13.4|8080|Nepal|Kathmandu|Subisu Cablenet|
-|7|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|8|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
-|9|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
-|10|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|11|161.77.221.239|3129|United States|Springfield|Crocker Communications|
-|12|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|13|181.78.104.178|999|Guatemala|Guatemala City|Ufinet Panama S.A.|
-|14|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|15|123.182.59.48|8089|China|Zhangjiakou|Chinanet|
-|16|185.190.38.150|8080|Kosovo|Dubova|Kadri Haxhiaj trading as "B.I."|
-|17|111.225.153.46|8089|China|Gaocheng|Chinanet|
-|18|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|19|111.225.153.153|8089|China|Gaocheng|Chinanet|
-|20|123.182.58.146|8089|China|Zhangjiakou|Chinanet|
+|1|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|3|185.204.171.220|8118|Netherlands|Amsterdam|Softqloud GmbH|
+|4|172.105.184.208|8001|Australia|Sydney|Linode, LLC|
+|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|6|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|7|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|8|190.115.4.51|999|Guatemala|Guatemala City|Ufinet Panama S.A.|
+|9|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|10|103.148.192.83|8082|Indonesia|Bandung|PT. Akashia Thuba Jaya|
+|11|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|12|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
+|13|170.245.132.15|999|Paraguay|Asunción|MACHADO BAEZ, NERY JAVIER|
+|14|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|15|27.131.179.207|10443|Thailand|Ayutthaya|KIRZ Company Limited|
+|16|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|17|114.116.2.116|8001|China|Beijing|China Unicom Beijing Province Network|
+|18|161.77.216.44|3129|United States|Springfield|Crocker Communications|
+|19|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|20|176.192.70.58|8001|Russia|Moscow|Net By Net Holding LLC|
 
 
 
