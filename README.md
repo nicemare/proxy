@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|262|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|262|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|262|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|294|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|294|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|294|
 
 ## Sources
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|2|138.68.3.159|3128|United States|Santa Clara|DigitalOcean, LLC|
-|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|5|138.68.3.159|3128|United States|Santa Clara|DigitalOcean, LLC|
-|6|93.104.210.248|80|Germany|Munich|MNET|
-|7|167.99.246.55|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|175.196.125.203|80|South Korea|Gangdong-gu|Korea Telecom|
-|9|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|10|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|11|178.128.106.143|8080|Singapore|Singapore|DigitalOcean, LLC|
-|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|13|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
+|2|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|3|178.32.116.64|3128|France|Roubaix|OVH SAS|
+|4|72.18.134.138|8080|United States|Denver|Handy Networks|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|7|178.128.106.143|8080|Singapore|Singapore|DigitalOcean, LLC|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
+|10|34.82.24.229|5555|United States|The Dalles|Google LLC|
+|11|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|12|190.107.233.227|999|Ecuador|Hacienda Ibarra|CINECABLE TV|
+|13|103.159.196.215|1085|Indonesia|Bekasi|PT Andalan Dinamika Informatika|
 |14|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
-|15|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
-|16|173.167.76.202|3128|United States|East Earl|Comcast Cable Communications, LLC|
-|17|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
-|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|19|82.209.219.61|2222|Belarus|Minsk|Republican Unitary Telecommunication Enterprise Beltelecom|
-|20|8.12.18.236|3128|United States|Piscataway|The Constant Company, LLC|
+|15|8.12.18.236|3128|United States|Piscataway|The Constant Company, LLC|
+|16|198.206.133.34|8118|United States|Franklin|Wisconsin CyberLynk Network, Inc.|
+|17|103.142.110.98|8080|Indonesia|Panjang Kidul|PT. HIPERNET INDODATA|
+|18|173.167.76.202|3128|United States|East Earl|Comcast Cable Communications, LLC|
+|19|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|20|104.37.102.130|8181|United States|Daleville|ALTIUS Broadband, LLC|
 
 
 
