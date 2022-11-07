@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4666** proxies at the latest update. Usable proxies are below.
+> Scraper found **4730** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|190|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|190|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|190|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|254|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|254|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|254|
 
 ## Sources
 
@@ -31,11 +31,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|588|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|590|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|351|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|313|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2444|✅|
 
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|2|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|3|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|4|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|5|188.120.240.229|8082|Russia|Skolkovo|JSC IOT|
-|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|8|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|11|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|12|203.150.113.41|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|13|103.160.201.196|8080|Indonesia|Jakarta|PT Viriya Surya Abadi|
-|14|183.88.72.106|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|15|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|16|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|17|85.173.221.214|80|Russia|Volgograd|Volgograd Electro Svyaz|
-|18|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|19|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|20|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|2|85.208.107.197|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|3|85.208.107.193|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|4|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|5|178.32.116.64|3128|France|Roubaix|OVH SAS|
+|6|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|7|85.208.107.192|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|8|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|85.208.107.200|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|10|85.208.107.198|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|11|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|12|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|13|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|14|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|15|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|16|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|17|203.150.113.41|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
+|18|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
+|19|4.233.217.137|8888|France|Paris|Microsoft Corporation|
+|20|188.120.240.229|8082|Russia|Skolkovo|JSC IOT|
 
 
 
