@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4003** proxies at the latest update. Usable proxies are below.
+> Scraper found **3906** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|105|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|105|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|105|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|74|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|74|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|74|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|277|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|287|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|233|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|126|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2110|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|2|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|1|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|2|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 |3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|89.238.178.55|10605|Spain|Madrid|M247 Ltd|
-|8|182.253.232.96|8080|Indonesia|Jakarta|BIZNET|
-|9|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
-|10|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|11|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
-|12|114.116.2.116|8001|China|Beijing|China Unicom Beijing Province Network|
-|13|172.105.184.208|8001|Australia|Sydney|Linode, LLC|
-|14|182.191.84.39|80|Pakistan|Islamabad|Pakistan Telecommuication company limited|
-|15|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|16|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|17|178.32.116.64|3128|France|Roubaix|OVH SAS|
-|18|172.105.184.208|8001|Australia|Sydney|Linode, LLC|
-|19|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|20|190.107.237.21|999|Ecuador|Milagro|CINECABLE TV|
+|4|198.59.191.234|8080|United States|Las Cruces|TDS TELECOM|
+|5|103.147.247.135|8080|Indonesia|Tangerang|PLBNET|
+|6|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
+|7|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
+|8|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
+|10|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
+|11|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|12|111.225.153.104|8089|China|Gaocheng|Chinanet|
+|13|123.182.59.250|8089|China|Zhangjiakou|Chinanet|
+|14|186.96.108.30|8080|Colombia|Suarez|TV AZTECA SUCURSAL COLOMBIA|
+|15|103.106.112.18|1234|Indonesia|Metro|SMSNET|
+|16|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|17|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|128.199.67.35|80|Singapore|Singapore|DigitalOcean, LLC|
+|19|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|20|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
