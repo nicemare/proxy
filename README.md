@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4746** proxies at the latest update. Usable proxies are below.
+> Scraper found **4389** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|209|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|209|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|209|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|195|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|195|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|195|
 
 ## Sources
 
@@ -31,38 +31,38 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|558|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|446|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|361|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2444|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2299|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|2|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|38.9.163.35|999|Venezuela|Maracaibo|GIGAPOP, C.A.|
 |3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|4|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|4|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
 |5|4.233.217.137|8888|France|Paris|Microsoft Corporation|
-|6|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
-|7|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|8|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
-|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|10|200.60.87.202|999|Peru|Huancayo|Telefonica del Peru S.A.A.|
-|11|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|12|80.249.187.85|8080|Russia|St Petersburg|Smart Telecom Company|
-|13|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|14|173.82.252.145|3129|United States|Santa Clarita|Multacom Corporation|
-|15|186.96.148.144|999|Mexico|Mexico City|Total Play Telecomunicaciones SA De CV|
-|16|191.252.195.53|8888|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
-|17|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|18|117.240.53.116|3128|India|Bengaluru|BSNL Internet|
-|19|62.171.161.88|2018|Germany|Nuremberg|Contabo GmbH|
-|20|111.225.153.243|8089|China|Gaocheng|Chinanet|
+|6|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|7|190.113.41.163|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
+|8|198.59.191.234|8080|United States|Las Cruces|TDS TELECOM|
+|9|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
+|10|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|11|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|13|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|14|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|15|145.40.121.155|3128|Brazil|São Paulo|Packet Host, Inc.|
+|16|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|17|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|18|36.66.19.10|8080|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
+|19|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|20|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
 
 
 
