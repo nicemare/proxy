@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **3936** proxies at the latest update. Usable proxies are below.
+> Scraper found **4007** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|82|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|82|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|82|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|90|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|90|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|90|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|240|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|311|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|188|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2125|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|2|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|3|46.246.84.5|8118|Sweden|Stockholm|Portlane Network|
-|4|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|85.25.246.206|8646|France|Strasbourg|BSB-SERVICE|
-|6|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|7|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|8|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
-|9|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|10|203.150.113.80|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|11|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|12|103.155.18.165|8080|Pakistan|Lahore|TUFA Telecommunication (Pvt) Ltd.|
-|13|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|14|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|15|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|16|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
-|17|123.182.59.97|8089|China|Zhangjiakou|Chinanet|
-|18|123.182.59.29|8089|China|Zhangjiakou|Chinanet|
-|19|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|20|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|1|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|2|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|3|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|5|182.23.107.210|3128|Indonesia|Jakarta|PT Aplikanusa Lintasarta|
+|6|186.96.148.144|999|Mexico|Mexico City|Total Play Telecomunicaciones SA De CV|
+|7|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|8|157.100.58.124|999|Ecuador|Quito|Nedetel S.A.|
+|9|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|10|111.225.153.153|8089|China|Gaocheng|Chinanet|
+|11|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
+|12|68.183.191.179|36347|Singapore|Singapore|DigitalOcean, LLC|
+|13|112.78.137.106|8080|Indonesia|Bekasi|Biznet Networks|
+|14|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|15|60.169.102.21|8089|China|Hefei|Chinanet|
+|16|201.91.82.155|3128|Brazil|São Paulo|Vivo|
+|17|170.0.85.208|999|Argentina|Andresito|Dardo Rene Schroder|
+|18|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|20|111.225.152.48|8089|China|Gaocheng|Chinanet|
 
 
 
