@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4790** proxies at the latest update. Usable proxies are below.
+> Scraper found **4677** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|713|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|600|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|341|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2353|✅|
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
 |2|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|4|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|5|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|6|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|7|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
+|3|178.32.116.64|3128|France|Roubaix|OVH SAS|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|7|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
 |8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|9|91.185.58.173|8080|Russia|Irkutsk|JSC Irkutsk Business Net, Inc.|
-|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|11|118.99.124.172|8080|Indonesia|Jakarta|BIZNET|
-|12|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|13|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
-|14|200.105.215.18|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|82.209.210.179|8080|Belarus|Berëzovka|Republican Unitary Telecommunication Enterprise Beltelecom|
-|16|217.28.220.234|80|Russia|Skolkovo|JSC IOT|
-|17|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|18|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|19|201.91.82.155|3128|Brazil|São Paulo|Vivo|
-|20|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|9|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|10|194.8.218.100|8080|Germany|Aachen|NetCologne Gesellschaft fur Telekommunikation mbH|
+|11|217.28.220.234|80|Russia|Skolkovo|JSC IOT|
+|12|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|13|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|14|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|15|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
+|16|201.91.82.155|3128|Brazil|São Paulo|Vivo|
+|17|45.231.221.193|999|Mexico|Tijuana|Distrokom S De RL De CV|
+|18|14.161.31.192|53281|Vietnam|Ho Chi Minh City|VNPT|
+|19|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|20|91.214.31.234|8080|Ukraine|Zaporizhzhya|TOV "Telza"|
 
 
 
