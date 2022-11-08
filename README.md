@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4796** proxies at the latest update. Usable proxies are below.
+> Scraper found **5166** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|287|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|287|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|287|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|172|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|172|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|172|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|751|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|899|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|413|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2249|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|416|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2468|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.165.239.31|61001|United States|Ashburn|Amazon.com, Inc.|
-|2|167.88.176.207|8888|Canada|Mississauga|2EZ Network Inc.|
-|3|54.165.239.31|61001|United States|Ashburn|Amazon.com, Inc.|
-|4|179.1.192.9|999|Colombia|Neiva|InterNexa Global Network|
-|5|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|6|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|7|45.11.191.208|1337|Finland|Helsinki|TCK OOO|
-|8|45.11.191.207|1337|Finland|Helsinki|TCK OOO|
-|9|45.11.191.206|1337|Finland|Helsinki|TCK OOO|
-|10|160.19.94.30|1337|Spain|Madrid|Stallion Network Services Limited|
-|11|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|12|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|13|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|14|174.138.41.190|8888|United States|North Bergen|DigitalOcean, LLC|
-|15|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
-|16|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|18|124.122.114.185|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|19|203.207.56.111|8080|Indonesia|Bandung|STARNET|
-|20|102.38.5.233|8080|Libya|Tripoli|GKA|
+|1|189.173.7.229|999|Mexico|Hermosillo|Uninet S.A. de C.V|
+|2|5.182.39.115|8888|Portugal|Lisbon|Nuno Felgueiras|
+|3|160.19.94.30|1337|Spain|Madrid|Stallion Network Services Limited|
+|4|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
+|5|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|6|45.11.191.206|1337|Finland|Helsinki|TCK OOO|
+|7|45.11.191.207|1337|Finland|Helsinki|TCK OOO|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|45.11.191.208|1337|Finland|Helsinki|TCK OOO|
+|11|206.85.3.98|999|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
+|12|180.183.12.213|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|13|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|14|183.89.64.162|8080|Thailand|Nakhon Ratchasima|Triple T Broadband Public Company Limited|
+|15|125.27.56.110|8081|Thailand|Sawi|TOT Public Company Limited|
+|16|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
+|17|125.26.65.50|8080|Thailand|Bangkok|TOT Public Company Limited|
+|18|37.32.24.128|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|19|45.229.33.51|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
+|20|103.162.205.25|8181|Indonesia|Magelang|PT Jaringan Inti Exadata|
 
 
 
