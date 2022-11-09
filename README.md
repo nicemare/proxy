@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4522** proxies at the latest update. Usable proxies are below.
+> Scraper found **4515** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|201|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|201|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|201|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|572|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|565|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|279|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2288|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
-|4|151.80.212.72|3128|France|Roubaix|OVH SAS|
-|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|6|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|7|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|8|133.130.108.201|8080|Japan|Yokohama|GMO Internet, Inc.|
-|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|10|103.133.26.110|8181|Indonesia|Pajajaran|PT PHATRIA INTI PERSADA|
-|11|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|12|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|13|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|14|91.227.183.110|8080|Ukraine|Kyiv|SPD Polyudov Aleksandr Igorevich|
-|15|198.52.97.210|59394|United States|Santa Clarita|Multacom Corporation|
-|16|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|17|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|18|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|19|201.91.82.155|3128|Brazil|São Paulo|Vivo|
-|20|110.232.66.209|808|Indonesia|Medan|Media Antar Nusa PT.|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|149.202.160.140|8085|France|Gravelines|OVH SAS|
+|3|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|5|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
+|6|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|7|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|8|108.170.31.49|50013|United States|Phoenix|Secured Servers LLC|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|207.204.241.126|8118|United States|San Francisco|Strong Technology|
+|11|118.99.122.112|8080|Indonesia|South Tangerang|BIZNET|
+|12|154.212.7.244|999|Mexico|San Juan del Río|Ientc S De RL De CV|
+|13|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
+|14|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|49.50.81.89|3128|India|New Delhi|Cyfuture India Pvt. Ltd.|
+|16|5.161.81.198|3128|United States|Ashburn|Hetzner Online GmbH|
+|17|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|18|202.180.24.222|8080|Indonesia|Jakarta|PT. HIPERNET INDODATA|
+|19|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|5.161.81.198|3128|United States|Ashburn|Hetzner Online GmbH|
 
 
 
