@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|180|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|180|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|180|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|190|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|190|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|190|
 
 ## Sources
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|4|82.102.13.45|8080|United Kingdom|Gosport|Redstation Limited|
-|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|6|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|7|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|8|103.155.54.185|83|India|Kolkata|abuse-mailbox: (abuse@pegasuswave.com)|
-|9|109.200.155.195|8080|Ukraine|Simferopol|Crelcom LLC|
-|10|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|11|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|12|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|13|149.248.17.90|10080|United States|Los Angeles|The Constant Company|
-|14|148.66.129.77|9453|Singapore|Singapore|GoDaddy.com, LLC|
-|15|154.79.242.178|1686|Kenya|Nairobi|Airtel KE Mobile & Fixed Internet|
-|16|190.107.234.144|999|Ecuador|Quevedo|CINECABLE TV|
-|17|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|18|212.126.106.230|8889|Iraq|Sulaymaniyah|AL-SARD FIBER Co. Internet Fiber and Optical Cable Services /Ltd|
-|19|171.244.10.193|1911|Vietnam|Hanoi|VIETEL|
-|20|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|1|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|2|198.52.97.210|59394|United States|Santa Clarita|Multacom Corporation|
+|3|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|4|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|5|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|6|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|7|95.217.120.82|3368|Finland|Helsinki|Hetzner Online GmbH|
+|8|103.148.100.218|8080|Indonesia|Denpasar|FLYNET|
+|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|10|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|11|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|12|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|13|152.228.128.48|8118|France|Strasbourg|OVH SAS|
+|14|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|15|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|16|192.99.199.49|3128|Canada|Beauharnois|OVH Hosting|
+|17|149.202.160.140|8085|France|Gravelines|OVH SAS|
+|18|95.217.120.82|3368|Finland|Helsinki|Hetzner Online GmbH|
+|19|132.145.248.100|3128|Germany|Frankfurt am Main|Oracle Corporation|
+|20|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
 
 
 
