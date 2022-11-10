@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4118** proxies at the latest update. Usable proxies are below.
+> Scraper found **4111** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|94|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|94|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|94|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|138|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|138|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|138|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|401|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|394|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|207|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2227|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|3|8.242.126.181|3128|Colombia|Bogotá|CTL Colombia|
-|4|24.116.218.195|8080|United States|Pascagoula|CABLE ONE, INC.|
-|5|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|6|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|7|189.173.7.229|999|Mexico|Hermosillo|Uninet S.A. de C.V|
-|8|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|9|188.133.139.219|1256|Russia|Moscow|Enforta-MSK|
-|10|75.119.130.35|3128|Germany|Düsseldorf|Contabo GmbH|
-|11|123.182.59.192|8089|China|Zhangjiakou|Chinanet|
-|12|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|13|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|14|111.225.153.161|8089|China|Gaocheng|Chinanet|
-|15|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
-|16|60.169.99.203|8089|China|Hefei|Chinanet|
-|17|123.182.59.29|8089|China|Zhangjiakou|Chinanet|
-|18|111.225.152.198|8089|China|Gaocheng|Chinanet|
-|19|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|20|131.100.48.73|999|Colombia|Iquira|Fibernet TV SAS|
+|2|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|3|149.202.160.140|8085|France|Gravelines|OVH SAS|
+|4|75.119.130.35|3128|Germany|Düsseldorf|Contabo GmbH|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|9|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|10|103.105.142.132|8888|Indonesia|Cirebon|Dinas Komunikasi Informatika dan Statistik Kota Cirebon|
+|11|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
+|12|117.54.238.61|8080|Indonesia|Jakarta|PT IndoInternet|
+|13|103.148.192.83|8082|Indonesia|Bandung|PT. Akashia Thuba Jaya|
+|14|203.207.56.111|8080|Indonesia|Bandung|STARNET|
+|15|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
+|16|103.111.226.225|8080|Bangladesh|Chittagong|Plusnet inc.|
+|17|103.247.121.115|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|18|203.189.137.96|8080|Cambodia|Phnom Penh|ONLINE|
+|19|157.100.58.124|999|Ecuador|Quito|Nedetel S.A.|
+|20|79.127.56.147|8080|Iran|Mashhad|Asiatech Data Transmission company|
 
 
 
