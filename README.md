@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4240** proxies at the latest update. Usable proxies are below.
+> Scraper found **4593** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|200|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|200|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|200|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|255|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|255|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|255|
 
 ## Sources
 
@@ -33,10 +33,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|479|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|744|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|192|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2186|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2274|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
 |2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|3|185.204.171.220|8118|Netherlands|Amsterdam|Softqloud GmbH|
 |4|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
 |5|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
 |6|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|159.65.143.9|8080|Singapore|Singapore|DigitalOcean, LLC|
-|9|159.223.81.36|8080|Singapore|Singapore|DigitalOcean, LLC|
-|10|159.65.15.147|8080|Singapore|Singapore|DigitalOcean, LLC|
+|7|159.65.143.9|8080|Singapore|Singapore|DigitalOcean, LLC|
+|8|159.223.81.36|8080|Singapore|Singapore|DigitalOcean, LLC|
+|9|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|10|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
 |11|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|12|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|13|94.103.85.88|9300|Russia|Moscow|VDSINA|
-|14|200.202.223.42|8080|Brazil|São Paulo|V tal|
+|12|159.65.15.147|8080|Singapore|Singapore|DigitalOcean, LLC|
+|13|61.7.228.54|443|Thailand|Mae Sai|CAT-ISP|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 |15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|16|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|17|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|18|103.189.222.2|8080|Indonesia|Tangerang|PT. WIKAPLUS GLOBAL NUSANTARA|
-|19|103.168.164.26|83|India|Pune|Nutech Broadband|
-|20|200.94.142.218|999|Mexico|Jalpa de Mendez|Alestra, S. de R.L. de C.V.|
+|16|191.102.254.11|8085|Argentina|Rosario|IP·RED|
+|17|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
+|18|118.99.102.181|8080|Indonesia|Jakarta|Biznet Metronet|
+|19|187.62.191.3|61456|Brazil|Bariri|Conexao Networks Provedor de Internet|
+|20|190.0.243.252|3128|Colombia|Bogotá|Media Commerce Partners S.A|
 
 
 
