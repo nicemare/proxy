@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4050** proxies at the latest update. Usable proxies are below.
+> Scraper found **4113** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|119|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|119|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|119|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|167|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|167|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|167|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|464|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|465|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|83|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|145|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2120|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|134.209.212.144|8080|United States|North Bergen|DigitalOcean, LLC|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
 |3|146.190.74.230|8080|United States|Chicago|DigitalOcean|
 |4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|177.241.250.234|999|Mexico|Uruapan|Mega Cable, S.A. de C.V.|
-|8|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|182.253.94.135|8080|Indonesia|Jakarta|BIZNET|
-|10|134.209.212.144|8080|United States|North Bergen|DigitalOcean, LLC|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|7|146.190.74.230|8080|United States|Chicago|DigitalOcean|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|212.3.187.120|8080|Italy|Fasano|CLIO|
+|10|107.152.236.228|10000|United States|Buffalo|B2 Net Solutions Inc.|
 |11|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
 |12|182.253.109.140|8080|Indonesia|Semarang|Biznet Metronet|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|15|185.190.38.30|8080|Serbia|Belgrade|Kadri Haxhiaj trading as "B.I."|
-|16|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|13|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|15|191.97.14.26|999|Colombia|Garagoa|TV AZTECA SUCURSAL COLOMBIA|
+|16|94.181.48.110|1256|Russia|Moscow|Enforta-MSK|
 |17|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|18|134.209.212.144|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|20|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|18|74.208.51.100|80|United States|Knoxville|IONOS SE|
+|19|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|20|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
