@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4446** proxies at the latest update. Usable proxies are below.
+> Scraper found **4527** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|176|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|176|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|176|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|177|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|177|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|177|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|554|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|635|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|205|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2304|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|182.253.153.46|8080|Indonesia|Jakarta|BIZNET|
+|2|95.217.132.109|8888|Finland|Helsinki|Hetzner Online GmbH|
 |3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|4|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|5|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|6|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|7|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|5|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|7|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|8|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
 |9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|10|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|11|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|12|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
-|13|202.93.114.62|8080|Indonesia|Jakarta|PT Asia Akses Utama|
-|14|41.33.3.35|1981|Egypt|Cairo|TE Data|
-|15|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|16|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|17|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
-|18|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|19|123.182.58.56|8089|China|Zhangjiakou|Chinanet|
-|20|95.217.132.109|8888|Finland|Helsinki|Hetzner Online GmbH|
+|10|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|11|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|12|95.216.194.46|1081|Finland|Helsinki|Hetzner Online GmbH|
+|13|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|14|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|15|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|16|221.5.80.66|3128|China|Guangzhou|China Unicom  IP network China169 Guangdong province|
+|17|95.217.132.109|8888|Finland|Helsinki|Hetzner Online GmbH|
+|18|123.182.58.133|8089|China|Zhangjiakou|Chinanet|
+|19|27.46.46.1|9797|China|Shenzhen|China Unicom Guangdong Province Network|
+|20|185.190.38.150|8080|Kosovo|Dubova|Kadri Haxhiaj trading as "B.I."|
 
 
 
