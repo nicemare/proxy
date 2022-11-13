@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4542** proxies at the latest update. Usable proxies are below.
+> Scraper found **4522** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|264|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|264|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|264|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|254|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|254|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|254|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|524|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|535|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|278|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2357|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|338|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2266|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
-|2|51.161.61.46|9090|Colombia|Bogotá|OVH Hosting|
-|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|4|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|1|51.161.61.46|9090|Colombia|Bogotá|OVH Hosting|
+|2|85.208.107.193|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|3|85.208.107.197|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 |5|85.208.107.200|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|6|85.208.107.193|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|7|85.208.107.192|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|8|85.208.107.197|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|9|85.208.107.198|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|10|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|11|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|13|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|14|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|16|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|17|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|187.130.139.197|8080|Mexico|Mexico City|Uninet S.A. de C.V.|
-|20|190.107.237.18|999|Ecuador|Milagro|CINECABLE TV|
+|6|85.208.107.192|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|7|85.208.107.198|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|11|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|12|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|13|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|181.48.41.158|999|Colombia|Bogotá|Telmex Colombia S.A.|
+|16|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|18|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|19|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
 
 
 
