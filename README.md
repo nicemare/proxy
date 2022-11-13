@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4723** proxies at the latest update. Usable proxies are below.
+> Scraper found **4542** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|236|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|236|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|236|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|183|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|183|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|183|
 
 ## Sources
 
@@ -31,9 +31,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|644|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|563|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|258|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2438|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|2|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|3|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|4|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|1|134.122.85.174|8888|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|156.34.187.155|8888|Canada|Fall River|Bell Canada|
+|3|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|4|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
 |5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|6|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|7|178.218.43.60|4411|Russia|Rybinsk|ATEXS PLUS Ltd.|
-|8|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|9|107.152.236.237|10000|United States|Buffalo|B2 Net Solutions Inc.|
-|10|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|11|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|12|103.253.112.112|3128|Indonesia|Kuningan Barat|PT Media Andalan Nusa|
-|13|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|14|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|15|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|16|159.255.188.134|41258|Poland|Belzec|TOM-NET s.c. Dariusz Koper|
-|17|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|18|74.91.116.171|3128|United States|New York|Internap Holding LLC|
-|19|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|20|178.136.2.208|55443|Ukraine|Kyiv|VEGA Kiev|
+|6|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|9|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
+|10|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
+|11|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|12|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|13|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|14|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|201.71.2.97|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|16|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|17|190.216.107.196|999|Ecuador|Quito|Level 3 ECUADOR LVLT S.A|
+|18|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|19|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|20|201.222.45.52|999|Chile|Santiago|GRUPO ULLOA SpA|
 
 
 
