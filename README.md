@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4230** proxies at the latest update. Usable proxies are below.
+> Scraper found **4313** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|159|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|159|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|159|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|139|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|139|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|139|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|425|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|508|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|174|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2248|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|2|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|189.201.153.90|999|Mexico|Tuxtla Gutiérrez|ATC HOLDING FIBRA MEXICO, S. DE R.L. DE C.V.|
-|4|94.130.138.243|8888|Germany|Falkenstein|Hetzner Online GmbH|
-|5|186.125.235.101|999|Argentina|Monteros|Telecom Argentina S.A.|
-|6|171.97.116.46|8080|Thailand|Chiang Mai|True Internet Corporation CO. Ltd.|
-|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|10|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|11|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|12|152.231.25.58|8080|Colombia|Florencia|Colombiatel Telecomunicaciones|
-|13|201.220.102.146|8080|Chile|Maule|Telefonica del Sur S.A.|
-|14|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|15|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|16|95.217.23.223|8888|Finland|Helsinki|Hetzner Online GmbH|
-|17|95.217.3.147|8888|Finland|Helsinki|Hetzner Online GmbH|
-|18|65.21.158.201|8888|Finland|Helsinki|Hetzner Online GmbH|
-|19|65.21.159.40|8888|Finland|Helsinki|Hetzner Online GmbH|
-|20|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|4|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|5|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|6|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|7|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|8|190.90.224.123|999|Colombia|Popayán|Internexa S.a. E.S.P|
+|9|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|10|95.217.23.223|8888|Finland|Helsinki|Hetzner Online GmbH|
+|11|123.182.58.208|8089|China|Zhangjiakou|Chinanet|
+|12|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|13|139.59.232.188|8080|Singapore|Singapore|DIGITALOCEAN|
+|14|111.225.153.76|8089|China|Gaocheng|Chinanet|
+|15|111.225.152.43|8089|China|Gaocheng|Chinanet|
+|16|14.139.182.12|3128|India|Kollam|National Knowledge Network|
+|17|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|18|135.181.194.189|8888|Finland|Helsinki|Hetzner Online GmbH|
+|19|111.225.153.53|8089|China|Gaocheng|Chinanet|
+|20|135.181.42.136|8888|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
