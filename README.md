@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4208** proxies at the latest update. Usable proxies are below.
+> Scraper found **4021** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|92|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|92|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|92|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|88|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|88|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|88|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|390|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|317|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|201|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|87|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2234|✅|
 
 
@@ -47,22 +47,22 @@ Click the file format that you want and copy the URL.
 |2|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
 |3|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
 |4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|187.130.139.197|8080|Mexico|Mexico City|Uninet S.A. de C.V.|
-|6|190.107.237.16|999|Ecuador|Milagro|CINECABLE TV|
-|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|190.107.237.16|999|Ecuador|Milagro|CINECABLE TV|
 |8|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|10|103.83.156.175|5555|Singapore|Singapore|Centerhop Pte. Ltd.|
-|11|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|12|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|13|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|14|111.225.153.14|8089|China|Gaocheng|Chinanet|
-|15|123.182.58.60|8089|China|Zhangjiakou|Chinanet|
-|16|123.182.59.98|8089|China|Zhangjiakou|Chinanet|
-|17|123.182.58.8|8089|China|Zhangjiakou|Chinanet|
-|18|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|20|111.225.153.155|8089|China|Gaocheng|Chinanet|
+|9|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|10|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|11|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|12|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|13|179.49.156.83|999|Peru|Lima|Vemax S.A.C|
+|14|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|15|123.182.58.19|8089|China|Zhangjiakou|Chinanet|
+|16|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
+|17|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|18|123.182.58.29|8089|China|Zhangjiakou|Chinanet|
+|19|111.225.153.123|8089|China|Gaocheng|Chinanet|
+|20|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
 
 
 
