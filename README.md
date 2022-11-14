@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4869** proxies at the latest update. Usable proxies are below.
+> Scraper found **4832** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|487|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|487|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|487|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|450|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|450|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|450|
 
 ## Sources
 
@@ -31,11 +31,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|859|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|665|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|278|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|535|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2349|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.197.250.11|3128|United States|New York|LAKSH|
-|2|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
-|3|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|4|38.146.52.242|3128|United States|Boston|Charles River Operation|
-|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|8|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|9|159.197.250.11|3128|United States|New York|LAKSH|
-|10|44.211.219.183|3128|United States|Ashburn|Amazon.com|
-|11|132.248.159.223|3128|Mexico|Tecamac|Universidad Nacional Autonoma de Mexico|
+|1|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
+|2|159.197.250.11|3128|United States|New York|LAKSH|
+|3|38.146.52.242|3128|United States|Boston|Charles River Operation|
+|4|154.197.139.238|23073|Hong Kong|Hong Kong|Shenzhen Jizhan Technology Co Ltd|
+|5|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|6|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
+|7|159.197.250.11|3128|United States|New York|LAKSH|
+|8|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|38.146.52.242|3128|United States|Boston|Charles River Operation|
+|11|38.146.52.252|3128|United States|Boston|Charles River Operation|
 |12|5.57.41.190|3128|Germany|Berlin|Planetary-Networks|
-|13|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
-|14|20.151.25.71|3128|Canada|Toronto|Microsoft Corporation|
-|15|38.146.52.242|3128|United States|Boston|Charles River Operation|
-|16|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|17|103.191.92.177|3128|Indonesia|Genuksari|PT Cloud Hosting Indonesia|
-|18|20.93.59.29|3128|Ireland|Dublin|Microsoft Corporation|
-|19|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|20|101.53.134.45|3128|India|Bengaluru|E2E Networks Limited|
+|13|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|15|198.52.97.210|59394|United States|Santa Clarita|Multacom Corporation|
+|16|101.53.134.45|3128|India|Bengaluru|E2E Networks Limited|
+|17|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|18|44.211.219.183|3128|United States|Ashburn|Amazon.com|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
 
 
 
