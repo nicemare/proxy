@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4673** proxies at the latest update. Usable proxies are below.
+> Scraper found **4791** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|317|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|317|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|317|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|364|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|364|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|364|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|588|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|706|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|395|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2307|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|3|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|4|135.181.42.136|8888|Finland|Helsinki|Hetzner Online GmbH|
-|5|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
-|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|7|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|8|95.216.136.105|8888|Finland|Helsinki|Hetzner Online GmbH|
-|9|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|10|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|11|135.181.251.106|8888|Finland|Helsinki|Hetzner Online GmbH|
-|12|95.217.132.109|8888|Finland|Helsinki|Hetzner Online GmbH|
-|13|49.249.52.92|80|India|Bengaluru|Ttsl GSM|
-|14|95.216.211.245|8888|Finland|Helsinki|Hetzner Online GmbH|
-|15|95.217.21.60|8888|Finland|Helsinki|Hetzner Online GmbH|
-|16|167.172.228.60|3128|United States|Clifton|DigitalOcean, LLC|
-|17|190.107.237.14|999|Ecuador|Milagro|CINECABLE TV|
-|18|190.0.243.253|3128|Colombia|Bogotá|Media Commerce Partners S.A|
-|19|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|20|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|2|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
+|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|167.172.228.60|3128|United States|Clifton|DigitalOcean, LLC|
+|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|9|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|10|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|11|212.108.144.67|8080|Cyprus|Nicosia|Lifecell Digital LTD|
+|12|107.152.236.253|10000|United States|Buffalo|B2 Net Solutions Inc.|
+|13|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|14|172.105.225.236|31330|Japan|Tokyo|Linode, LLC|
+|15|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|16|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|17|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
+|18|156.241.0.13|8888|Netherlands|Amsterdam|BitCommand LLC|
+|19|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|20|45.56.87.180|3128|United States|Fremont|Linode, LLC|
 
 
 
