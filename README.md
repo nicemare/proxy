@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5086** proxies at the latest update. Usable proxies are below.
+> Scraper found **4827** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|583|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|583|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|583|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|499|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|499|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|499|
 
 ## Sources
 
@@ -31,9 +31,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|998|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|839|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|469|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2236|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|159.197.250.11|3128|United States|New York|LAKSH|
-|2|76.232.12.51|3128|United States|Charlotte|AT&T Services, Inc.|
-|3|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|5|187.188.167.30|3128|Mexico|Veracruz|Total Play Telecomunicaciones SA De CV|
-|6|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|7|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|8|159.197.250.11|3128|United States|New York|LAKSH|
-|9|76.232.12.51|3128|United States|Charlotte|AT&T Services, Inc.|
-|10|74.63.254.156|3128|United States|Dallas|Limestone Networks|
-|11|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|12|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|13|51.159.115.233|3128|France|Paris|SCALEWAY|
-|14|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|15|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|16|72.44.65.218|3128|United States|Santa Clarita|Multacom Corporation|
-|17|12.46.236.24|3129|United States|State College|AT&T Services, Inc.|
-|18|12.46.236.24|3129|United States|State College|AT&T Services, Inc.|
-|19|209.159.155.84|80|United States|Secaucus|Interserver, Inc|
-|20|70.44.4.150|8888|United States|Troy|PenTeleData Inc.|
+|2|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|4|134.122.85.174|8888|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|159.197.250.11|3128|United States|New York|LAKSH|
+|6|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|7|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|8|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|9|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|10|51.159.115.233|3128|France|Paris|SCALEWAY|
+|11|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|12|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|13|187.188.167.30|3128|Mexico|Veracruz|Total Play Telecomunicaciones SA De CV|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|16|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|17|119.42.115.183|8080|Thailand|Bangkok|CAT-BB|
+|18|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
