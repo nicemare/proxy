@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4916** proxies at the latest update. Usable proxies are below.
+> Scraper found **4841** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|399|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|399|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|399|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|334|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|334|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|334|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|794|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|719|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|329|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2410|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|3|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|8|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|9|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|12|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|13|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
-|14|183.89.9.167|8080|Thailand|Lampang|Triple T Broadband Public Company Limited|
-|15|45.72.5.31|3128|United States|Piscataway|Server Mania Inc|
-|16|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
-|17|191.97.18.177|999|Venezuela|Caracas|INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)|
-|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|19|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
-|20|64.29.86.247|3129|United States|New York|NetEnterprise Inc.|
+|1|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
+|2|149.28.218.51|80|United States|Santa Clara|The Constant Company|
+|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|4|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|5|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|6|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|7|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
+|8|51.159.115.233|3128|France|Paris|SCALEWAY|
+|9|45.72.5.31|3128|United States|Piscataway|Server Mania Inc|
+|10|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|11|154.19.187.251|3128|Japan|Tokyo|Cogent Communications|
+|12|181.66.181.198|999|Peru|Tacna|Telefonica del Peru S.A.A.|
+|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|14|45.72.5.31|3128|United States|Piscataway|Server Mania Inc|
+|15|172.104.60.117|3128|Singapore|Singapore|Linode, LLC|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|18|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|19|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|20|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
 
 
 
