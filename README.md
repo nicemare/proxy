@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4769** proxies at the latest update. Usable proxies are below.
+> Scraper found **4563** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|254|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|254|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|254|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|137|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|137|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|137|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|759|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|553|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|334|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2393|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|170.39.194.16|3128|United States|Ashburn|Rackdog, LLC|
-|2|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|3|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|170.39.194.16|3128|United States|Ashburn|Rackdog, LLC|
+|2|170.39.194.16|3128|United States|Ashburn|Rackdog, LLC|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
 |6|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
 |7|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|8|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|9|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|12.46.236.24|3129|United States|State College|AT&T Services, Inc.|
+|9|12.46.236.24|3129|United States|State College|AT&T Services, Inc.|
 |10|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
-|13|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|15|217.219.28.117|3128|Iran|Rafsanjan|Iran Telecommunication Company PJS|
-|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|17|172.104.60.117|3128|Singapore|Singapore|Linode, LLC|
-|18|51.159.115.233|3128|France|Paris|SCALEWAY|
-|19|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|20|14.207.149.123|8080|Thailand|Nakhon Pathom|Triple T Broadband Public Company Limited|
+|11|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|12|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|13|187.63.156.84|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
+|14|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|125.25.33.125|8080|Thailand|Chiang Mai|TOT Public Company Limited|
+|18|14.207.149.123|8080|Thailand|Nakhon Pathom|Triple T Broadband Public Company Limited|
+|19|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|20|172.104.60.117|3128|Singapore|Singapore|Linode, LLC|
 
 
 
