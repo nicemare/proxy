@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4758** proxies at the latest update. Usable proxies are below.
+> Scraper found **4899** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|294|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|294|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|294|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|396|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|396|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|396|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|653|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|794|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|437|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2385|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|117.251.103.186|8080|India|Noida|BSNL Internet|
-|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|1|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
 |5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|6|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|9|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|10|172.104.60.117|3128|Singapore|Singapore|Linode, LLC|
-|11|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|12|201.197.202.244|8080|Costa Rica|Tres Rios|Instituto Costarricense de Electricidad y Telecom.|
-|13|118.174.187.25|8080|Thailand|Khuan Kalong|TOT Public Company Limited|
-|14|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
-|15|165.22.60.129|34311|Singapore|Singapore|DigitalOcean, LLC|
-|16|103.124.97.12|8080|Nepal|Kaski|Pokhara Internet Pvt. Ltd|
-|17|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|18|157.90.206.1|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|19|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
-|20|52.81.68.24|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|101.79.15.198|80|South Korea|Naju-si|Naver Business Platform Asia Pacific Pte. Ltd.|
+|8|83.69.192.142|3128|Russia|Druzhba|JSC Mastertel|
+|9|172.104.60.117|3128|Singapore|Singapore|Linode, LLC|
+|10|117.251.103.186|8080|India|Noida|BSNL Internet|
+|11|131.255.56.140|8080|Brazil|Barbosa|Link Brasil Telecomunicacoes Ltda|
+|12|64.29.86.178|3129|United States|New York|NetEnterprise Inc.|
+|13|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|45.70.6.205|8080|Brazil|Serra Talhada|OLITECH INFORMÁTICA E COMUNICAÇÃO LTDA|
+|17|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|20|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
 
 
 
