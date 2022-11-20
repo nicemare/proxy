@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4666** proxies at the latest update. Usable proxies are below.
+> Scraper found **4613** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|248|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|248|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|248|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|302|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|302|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|302|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|677|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|759|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|490|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|355|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2216|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|1|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 |3|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|190.82.105.123|43949|Chile|Santiago|Telefonica Empresas|
-|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|7|110.78.141.175|8080|Thailand|Bangkok|CAT-BB|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|182.253.131.40|8080|Indonesia|Jakarta|BIZNET|
-|10|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
-|11|102.68.135.135|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|12|177.43.72.251|3128|Brazil|Brasília|Vivo|
-|13|50.233.228.147|8080|United States|Denver|Comcast Cable Communications, LLC|
-|14|186.211.177.161|8082|Brazil|Pesqueira|BR Digital|
-|15|5.16.0.97|1256|Russia|Moscow|Enforta-MSK|
-|16|148.101.179.182|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A|
-|17|89.179.244.233|20000|Russia|Moscow|CORBINA-BROADBAND|
-|18|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|19|196.216.132.9|8080|South Africa|Zeerust|HERO TELECOMS (PTY) LTD|
-|20|198.144.149.82|3128|Canada|Toronto|Netminders Server Hosting|
+|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|14.207.202.36|8080|Thailand|Ban Kho|Triple T Broadband Public Company Limited|
+|7|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
+|8|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|9|36.94.58.26|4480|Indonesia|Tangerang|PT. Telekomunikasi Indonesia|
+|10|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|128.199.110.230|443|Singapore|Singapore|DigitalOcean, LLC|
+|13|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|14|82.165.184.53|80|Germany|Karlsruhe|IONOS SE|
+|15|197.211.35.195|8080|Nigeria|Lagos|Globacom Limited|
+|16|1.1.220.71|8080|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
+|17|183.88.13.155|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
+|18|190.82.105.123|43949|Chile|Santiago|Telefonica Empresas|
+|19|103.215.207.50|81|India|Kanker|Gurudev Communication|
+|20|194.145.138.183|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
 
 
 
