@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4813** proxies at the latest update. Usable proxies are below.
+> Scraper found **4859** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|164|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|164|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|164|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|396|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|396|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|396|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|547|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|593|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|693|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2290|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|165.192.111.151|3129|United States|Dallas|SoftLayer|
-|3|165.192.111.151|3129|United States|Dallas|SoftLayer|
-|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|142.93.51.113|3128|United States|North Bergen|DigitalOcean, LLC|
+|1|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
+|2|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
+|6|207.180.199.123|443|Germany|Nuremberg|Contabo GmbH|
+|7|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
 |8|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|9|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
-|10|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|11|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|12|182.253.109.232|8080|Indonesia|Semarang|Biznet Metronet|
-|13|182.253.109.234|8080|Indonesia|Semarang|Biznet Metronet|
-|14|183.88.191.185|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|15|103.165.1.3|8080|Indonesia|Samarinda|PT Borneo Digital Indonusa|
-|16|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|17|198.144.149.82|3128|Canada|Toronto|Netminders Server Hosting|
-|18|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|19|165.192.111.151|3129|United States|Dallas|SoftLayer|
-|20|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|9|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
+|10|13.208.43.202|8888|Japan|Osaka|Amazon Technologies Inc.|
+|11|59.15.28.113|3128|South Korea|Yangcheon-gu|Korea Telecom|
+|12|139.162.1.96|3128|Singapore|Singapore|Linode, LLC|
+|13|160.16.102.35|3190|Japan|Tokyo|SAKURA Internet Inc.|
+|14|190.57.246.39|8080|Argentina|Buenos Aires|Gigared S.A.|
+|15|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|16|144.91.106.93|3128|Germany|Nuremberg|Contabo GmbH|
+|17|111.93.235.75|80|India|Noida|Ttsl-isp Division|
+|18|118.96.57.67|8080|Indonesia|Jakarta|PT. TELKOM INDONESIA|
+|19|46.105.154.26|8080|Portugal|Lisbon|OVH ISP|
+|20|134.238.252.143|8080|India|Mumbai|Google LLC|
 
 
 
