@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4916** proxies at the latest update. Usable proxies are below.
+> Scraper found **4319** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|420|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|420|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|420|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|214|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|214|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|214|
 
 ## Sources
 
@@ -32,10 +32,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|847|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|603|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|496|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|443|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2290|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|2|45.42.177.50|3128|United States|Ashburn|Sprint|
-|3|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
-|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|5|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|6|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|7|45.42.177.50|3128|United States|Ashburn|Sprint|
-|8|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
-|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|160.16.65.250|3190|Japan|Tokyo|SAKURA Internet Inc.|
-|12|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|15|45.234.61.250|9991|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
-|16|180.183.108.247|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|17|162.250.112.65|8282|United States|Centerville|ALTIUS Broadband, LLC|
-|18|190.13.84.34|999|Colombia|Quibdó|TV AZTECA SUCURSAL COLOMBIA|
-|19|160.16.102.35|3190|Japan|Tokyo|SAKURA Internet Inc.|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|1|45.42.177.50|3128|United States|Ashburn|Sprint|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|45.42.177.50|3128|United States|Ashburn|Sprint|
+|4|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|88.255.64.82|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|7|160.16.65.250|3190|Japan|Tokyo|SAKURA Internet Inc.|
+|8|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|180.183.108.247|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|11|45.185.162.194|999|Ecuador|Guayaquil|Nedetel S.A.|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|14|110.50.84.3|80|Indonesia|Bandung|PT. MNC Kabel Mediacom|
+|15|160.16.81.134|3190|Japan|Tokyo|SAKURA Internet Inc.|
+|16|45.236.168.133|999|Ecuador|Guayaquil|Intercommerce S.A.|
+|17|45.234.61.250|9991|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
+|18|206.41.242.129|8080|United States|Madison|Internet Doorway, Inc.|
+|19|181.78.8.215|999|Colombia|Fonseca|IFX Networks Argentina S.R.L|
+|20|187.188.167.108|8080|Mexico|Misantla|Total Play Telecomunicaciones SA De CV|
 
 
 
