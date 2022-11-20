@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|521|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|521|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|521|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|499|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|499|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|499|
 
 ## Sources
 
@@ -48,21 +48,21 @@ Click the file format that you want and copy the URL.
 |3|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
 |4|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
 |5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|6|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|103.191.92.177|3128|Indonesia|Genuksari|PT Cloud Hosting Indonesia|
-|9|176.196.250.86|3128|Russia|Kemerovo|Goodline.info|
-|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|13|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|15|124.105.97.186|8080|Philippines|Mandaluyong City|Philippine Long Distance Telephone Co.|
-|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|17|174.138.116.12|80|United States|Clifton|DigitalOcean, LLC|
-|18|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|19|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|20|47.74.226.8|5001|Singapore|Singapore|Alibaba Cloud (Singapore) Private Limited|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
+|9|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|15.235.143.16|8118|Singapore|Singapore|OVH SAS|
+|15|103.189.235.91|3128|Singapore|Singapore|Cloud Host Pte Ltd|
+|16|103.191.92.177|3128|Indonesia|Genuksari|PT Cloud Hosting Indonesia|
+|17|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|18|197.251.233.124|8080|Ghana|Accra|Vodafone Ghana AS International Transit|
+|19|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|20|202.144.157.1|9009|Bhutan|Thimphu|Bhutan Telecom Ltd|
 
 
 
