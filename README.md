@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4627** proxies at the latest update. Usable proxies are below.
+> Scraper found **4108** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|197|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|197|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|197|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|214|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|214|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|214|
 
 ## Sources
 
@@ -31,11 +31,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|61|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|663|✅|
+|[proxyscan.io](https://www.proxyscan.io)|72|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|522|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|308|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|219|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2312|✅|
 
 
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.16|3128|United States|Ashburn|Sprint|
 |2|45.42.177.50|3128|United States|Ashburn|Sprint|
-|3|45.42.177.16|3128|United States|Ashburn|Sprint|
-|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|45.42.177.50|3128|United States|Ashburn|Sprint|
-|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|7|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|45.42.177.16|3128|United States|Ashburn|Sprint|
+|5|5.75.131.91|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|6|45.42.177.50|3128|United States|Ashburn|Sprint|
+|7|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
 |8|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
 |9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
 |11|117.251.103.186|8080|India|Noida|BSNL Internet|
-|12|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|13|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|15|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|18|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|19|111.225.152.185|8089|China|Gaocheng|Chinanet|
-|20|178.236.223.250|8080|Russia|Zavodoukovsk|JSC "Russian Company" LIR|
+|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|16|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|17|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|18|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|19|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|20|45.42.177.16|3128|United States|Ashburn|Sprint|
 
 
 
