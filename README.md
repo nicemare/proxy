@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|170|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|170|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|170|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|198|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|198|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|198|
 
 ## Sources
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.68|3128|United States|Ashburn|Sprint|
-|2|45.42.177.7|3128|United States|Ashburn|Sprint|
-|3|45.42.177.50|3128|United States|Ashburn|Sprint|
+|2|45.42.177.16|3128|United States|Ashburn|Sprint|
+|3|45.42.177.7|3128|United States|Ashburn|Sprint|
 |4|45.42.177.57|3128|United States|Ashburn|Sprint|
-|5|45.42.177.16|3128|United States|Ashburn|Sprint|
-|6|45.42.177.9|3128|United States|Ashburn|Sprint|
-|7|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|8|45.42.177.57|3128|United States|Ashburn|Sprint|
-|9|45.42.177.50|3128|United States|Ashburn|Sprint|
-|10|45.42.177.7|3128|United States|Ashburn|Sprint|
-|11|45.42.177.68|3128|United States|Ashburn|Sprint|
-|12|45.42.177.9|3128|United States|Ashburn|Sprint|
-|13|45.42.177.16|3128|United States|Ashburn|Sprint|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|117.251.103.186|8080|India|Noida|BSNL Internet|
-|16|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|17|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
-|18|91.205.172.113|3120|Germany|Munich|Contabo GmbH|
-|19|122.53.212.202|8080|Philippines|Manila|Philippine Long Distance Telephone Co.|
-|20|148.72.152.156|3128|United States|St Louis|GoDaddy.com|
+|5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|6|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|7|45.42.177.50|3128|United States|Ashburn|Sprint|
+|8|45.42.177.16|3128|United States|Ashburn|Sprint|
+|9|45.42.177.9|3128|United States|Ashburn|Sprint|
+|10|45.42.177.57|3128|United States|Ashburn|Sprint|
+|11|45.42.177.9|3128|United States|Ashburn|Sprint|
+|12|45.42.177.7|3128|United States|Ashburn|Sprint|
+|13|45.42.177.68|3128|United States|Ashburn|Sprint|
+|14|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
+|15|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|16|117.251.103.186|8080|India|Noida|BSNL Internet|
+|17|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|19|134.238.252.143|8080|India|Mumbai|Google LLC|
+|20|45.42.177.50|3128|United States|Ashburn|Sprint|
 
 
 
