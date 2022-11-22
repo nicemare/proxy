@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4568** proxies at the latest update. Usable proxies are below.
+> Scraper found **4577** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|232|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|232|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|232|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|295|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|295|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|295|
 
 ## Sources
 
@@ -31,11 +31,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|599|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|720|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|265|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|253|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2353|✅|
 
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|2|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|4|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|2|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|3|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
+|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 |5|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
-|6|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|7|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|8|45.42.177.50|3128|United States|Ashburn|Sprint|
-|9|45.42.177.50|3128|United States|Ashburn|Sprint|
-|10|178.238.236.233|3128|Germany|Munich|Contabo GmbH|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|147.139.4.105|3128|India|Mumbai|Alibaba.com LLC|
-|15|182.253.109.234|8080|Indonesia|Semarang|Biznet Metronet|
-|16|193.164.133.46|3128|Germany|Munich|Contabo GmbH|
-|17|117.251.103.186|8080|India|Noida|BSNL Internet|
-|18|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|19|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|20|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|6|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
+|7|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|8|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|9|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|10|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
+|11|147.139.4.105|3128|India|Mumbai|Alibaba.com LLC|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
+|14|117.251.103.186|8080|India|Noida|BSNL Internet|
+|15|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|18|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|19|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|20|178.238.236.233|3128|Germany|Munich|Contabo GmbH|
 
 
 
