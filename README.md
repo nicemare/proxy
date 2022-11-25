@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|396|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|396|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|396|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|278|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|278|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|278|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|956|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|916|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|264|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2286|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2326|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|2|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|3|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 |4|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|7|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
-|8|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|9|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|12|80.249.144.170|3128|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
-|13|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|14|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|15|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|16|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|17|134.238.252.143|8080|India|Mumbai|Google LLC|
-|18|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|5|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|8|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
+|9|89.58.13.9|1337|Germany|Dagebüll|netcup GmbH|
+|10|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|11|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|12|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|13|183.89.166.17|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
+|14|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|15|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|16|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|18|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
 |19|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|20|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|190.102.226.196|999|Chile|Casablanca|Pacifico Cable SPA.|
 
 
 
