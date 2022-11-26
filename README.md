@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5707** proxies at the latest update. Usable proxies are below.
+> Scraper found **5805** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|732|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|732|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|732|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|762|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|762|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|762|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1159|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1257|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|628|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2569|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|49.51.90.57|3128|Canada|Barrie|OPHL|
-|2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|4|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|5|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|6|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|3|49.51.90.57|3128|Canada|Barrie|OPHL|
+|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|7|130.18.255.115|8080|United States|Starkville|Mississippi State University|
 |8|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|9|116.203.227.24|8118|Germany|Frankfurt am Main|Hetzner Online GmbH|
-|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|9|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|10|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
 |11|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|12|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|13|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|14|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|13|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|14|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
 |15|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
-|16|116.42.182.182|3128|South Korea|Dongjak-gu|LG POWERCOMM|
-|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|18|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|19|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|20|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|16|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|17|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|18|134.238.252.143|8080|India|Mumbai|Google LLC|
+|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|20|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
 
 
 
