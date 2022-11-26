@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4727** proxies at the latest update. Usable proxies are below.
+> Scraper found **5029** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|420|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|420|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|420|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|366|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|366|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|366|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|788|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1090|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|361|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2227|✅|
@@ -46,23 +46,23 @@ Click the file format that you want and copy the URL.
 |1|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
 |2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |3|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|6|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|7|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
-|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|5|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|6|49.51.90.57|3128|Canada|Barrie|OPHL|
+|7|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|8|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|9|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
 |10|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
-|11|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|12|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|14|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|15|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|16|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|17|134.238.252.143|8080|India|Mumbai|Google LLC|
-|18|43.153.216.218|1080|Singapore|Singapore|Aceville Pte.ltd|
-|19|143.198.86.72|8080|Singapore|Singapore|DigitalOcean, LLC|
-|20|117.251.103.186|8080|India|Noida|BSNL Internet|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|13|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
+|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|15|117.251.103.186|8080|India|Noida|BSNL Internet|
+|16|43.153.216.218|1080|Singapore|Singapore|Aceville Pte.ltd|
+|17|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
+|18|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|19|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|20|102.68.128.218|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
 
 
 
