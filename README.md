@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4275** proxies at the latest update. Usable proxies are below.
+> Scraper found **4023** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|146|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|146|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|146|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|148|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|148|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|148|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|364|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|401|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|114|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2446|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2157|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|3|49.51.90.57|3128|Canada|Barrie|OPHL|
 |4|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|5|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|10|148.251.184.47|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|11|148.251.236.80|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|12|144.76.119.59|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|13|136.243.3.245|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|14|46.4.24.111|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|15|148.251.66.8|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|16|51.159.28.133|8000|France|Paris|SCALEWAY|
-|17|51.159.28.20|8000|France|Paris|SCALEWAY|
-|18|161.97.97.155|3128|Germany|Nuremberg|Contabo GmbH|
-|19|195.161.41.251|3128|Russia|Moscow|JSC RTComm.RU|
-|20|82.194.3.83|3128|Azerbaijan|Baku|AzEduNet|
+|5|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|8|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|9|117.251.103.186|8080|India|Noida|BSNL Internet|
+|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|11|195.154.255.194|8000|France|Bouglainval|Online S.A.S.|
+|12|46.4.24.111|1988|Germany|Falkenstein|Hetzner Online GmbH|
+|13|51.159.28.133|8000|France|Paris|SCALEWAY|
+|14|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|15|52.81.4.157|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
+|16|188.166.181.18|3128|Singapore|Singapore|DigitalOcean, LLC|
+|17|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
+|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|19|51.159.28.20|8000|France|Paris|SCALEWAY|
+|20|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
