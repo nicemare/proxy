@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4927** proxies at the latest update. Usable proxies are below.
+> Scraper found **4700** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|292|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|292|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|292|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
 
 ## Sources
 
@@ -31,9 +31,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|845|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|718|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|370|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2361|✅|
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|3|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|4|49.51.90.57|3128|Canada|Barrie|OPHL|
 |5|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|6|157.90.174.98|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |9|130.18.255.115|8080|United States|Starkville|Mississippi State University|
 |10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|118.99.124.94|8080|Indonesia|Jakarta|BIZNET|
-|13|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|14|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
-|15|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|16|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|17|168.196.124.147|999|Dominican Republic|Santo Domingo Este|COMCAST-SRL|
-|18|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|19|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|20|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|11|118.99.124.94|8080|Indonesia|Jakarta|BIZNET|
+|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|13|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
+|14|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|15|103.131.16.108|8080|Indonesia|Tangerang|Global Media Inti Semesta|
+|16|187.216.90.46|53281|Mexico|Mexico City|Uninet S.A. de C.V.|
+|17|164.62.72.90|443|United States|Washington|Federal Trade Commission|
+|18|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|19|164.62.72.90|443|United States|Washington|Federal Trade Commission|
+|20|188.235.130.50|8080|Russia|Saratov|JSC "ER-Telecom Holding"|
 
 
 
