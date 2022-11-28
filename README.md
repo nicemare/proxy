@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **3962** proxies at the latest update. Usable proxies are below.
+> Scraper found **4058** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|105|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|105|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|105|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|120|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|120|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|120|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|334|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|426|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|119|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|123|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2258|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|3|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|5|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|9|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|10|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|11|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|15|139.177.196.83|8080|Canada|Toronto|Linode, LLC|
-|16|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|17|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|18|143.198.86.102|8080|Singapore|Singapore|DigitalOcean, LLC|
-|19|178.63.237.147|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|20|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|3|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|4|45.70.212.10|8080|Brazil|Belém|Click Speed Servicos De Telecomunicacoes Ltda - EP|
+|5|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|6|54.196.147.230|8080|United States|Ashburn|Amazon.com, Inc.|
+|7|54.196.147.230|8080|United States|Ashburn|Amazon.com, Inc.|
+|8|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|9|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|13|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|15|202.158.69.122|80|Indonesia|Cipulir|ADITAMA6|
+|16|34.135.221.113|3128|United States|Council Bluffs|Google LLC|
+|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|18|45.190.79.208|999|Mexico|Yahualica de Gonzalez Gallo|Meta Networks SA De CV|
+|19|91.189.203.230|3128|Denmark|Hedehusene|Enkeltmandsvirksomhed Netvaerkssmeden|
+|20|143.198.86.102|8080|Singapore|Singapore|DigitalOcean, LLC|
 
 
 
