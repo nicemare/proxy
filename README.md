@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5716** proxies at the latest update. Usable proxies are below.
+> Scraper found **5844** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|439|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|439|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|439|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|487|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|487|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|487|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1304|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1576|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|495|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2566|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2422|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|3|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |4|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|5|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
-|9|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|10|62.76.26.232|3128|Russia|Moscow|Start LLC|
-|11|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|14|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|15|173.212.229.53|3128|Germany|Nuremberg|Contabo GmbH|
-|16|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|17|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
-|18|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|19|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
-|20|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|5|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|6|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|7|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
+|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|9|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
+|10|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
+|11|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|12|134.73.3.149|3129|United States|Los Angeles|LayerHost|
+|13|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
+|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|15|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|16|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|17|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
+|18|62.76.26.232|3128|Russia|Moscow|Start LLC|
+|19|140.82.5.38|1080|United States|Piscataway|The Constant Company|
+|20|37.112.57.47|8080|Russia|Bryansk|CJSC "ER-Telecom Holding" Bryansk branch|
 
 
 
