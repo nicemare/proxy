@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|344|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|344|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|344|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|355|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|355|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|355|
 
 ## Sources
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|47.184.161.154|3128|United States|Garland|Frontier Communications Solutions|
-|4|3.82.152.217|3128|United States|Ashburn|Amazon Technologies Inc.|
-|5|34.200.136.174|3128|United States|Ashburn|Amazon.com, Inc.|
-|6|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
-|7|51.250.65.244|3128|Russia|Moscow|Yandex.Cloud LLC|
-|8|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|9|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|10|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|11|34.87.82.204|3128|Singapore|Singapore|Google LLC|
-|12|44.197.189.207|3128|United States|Ashburn|Amazon.com|
-|13|20.70.251.230|3128|Australia|The Rocks|Microsoft Corporation|
-|14|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|15|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|16|43.229.135.183|8118|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|17|3.8.82.97|3128|United Kingdom|London|Amazon Technologies Inc.|
-|18|86.120.122.3|3128|Romania|Pipera|RCS & RDS|
-|19|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|20|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|34.200.136.174|3128|United States|Ashburn|Amazon.com, Inc.|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|47.184.161.154|3128|United States|Garland|Frontier Communications Solutions|
+|5|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|3.82.152.217|3128|United States|Ashburn|Amazon Technologies Inc.|
+|8|45.130.141.67|8000|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
+|9|62.12.146.142|3128|Switzerland|Winterthur|Cyberlink Internet Services AG|
+|10|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
+|11|3.82.152.217|3128|United States|Ashburn|Amazon Technologies Inc.|
+|12|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|13|51.250.65.244|3128|Russia|Moscow|Yandex.Cloud LLC|
+|14|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|15|3.8.82.97|3128|United Kingdom|London|Amazon Technologies Inc.|
+|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|17|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|18|62.76.26.232|3128|Russia|Moscow|Start LLC|
+|19|173.212.229.53|3128|Germany|Nuremberg|Contabo GmbH|
+|20|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 
 
 
