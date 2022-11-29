@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4773** proxies at the latest update. Usable proxies are below.
+> Scraper found **4512** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|230|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|230|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|230|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|141|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|141|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|141|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|735|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|474|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|256|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2431|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|134.73.3.208|3129|United States|Los Angeles|LayerHost|
-|3|134.73.3.82|3129|United States|Los Angeles|LayerHost|
-|4|134.73.1.183|3129|United States|Los Angeles|LayerHost|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
 |6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|134.73.3.208|3129|United States|Los Angeles|LayerHost|
-|8|134.73.1.183|3129|United States|Los Angeles|LayerHost|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|134.73.3.82|3129|United States|Los Angeles|LayerHost|
-|11|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|12|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|15|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|16|14.139.211.59|3128|India|Shanti Niketan|National Knowledge Network|
-|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|18|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|19|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|20|119.82.241.21|8080|Indonesia|Surabaya|Indonesia Network Information Center|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|20.121.184.238|443|United States|Boydton|Microsoft Corporation|
+|9|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|10|45.178.133.60|999|Chile|Curicó|Mundonet S.p.A|
+|11|213.239.207.123|80|Germany|Nuremberg|Hetzner Online GmbH|
+|12|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|14|123.182.58.25|8089|China|Zhangjiakou|Chinanet|
+|15|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|16|111.225.152.225|8089|China|Gaocheng|Chinanet|
+|17|123.182.58.111|8089|China|Zhangjiakou|Chinanet|
+|18|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
+|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|20|134.238.252.143|8080|India|Mumbai|Google LLC|
 
 
 
