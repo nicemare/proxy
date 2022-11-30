@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5595** proxies at the latest update. Usable proxies are below.
+> Scraper found **5584** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|466|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|466|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|466|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1187|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1128|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|506|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|554|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2551|✅|
 
 
@@ -46,23 +46,23 @@ Click the file format that you want and copy the URL.
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|49.51.90.57|3128|Canada|Barrie|OPHL|
 |3|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|4|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|5|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|6|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|7|134.73.3.106|3129|United States|Los Angeles|LayerHost|
-|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|9|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|13|129.205.182.208|8081|South Africa|Cape Town|Seacom Western Cape (Pty) Ltd|
-|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|15|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
-|16|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|17|51.159.115.233|3128|France|Paris|SCALEWAY|
-|18|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
-|19|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
-|20|49.48.119.79|8080|Thailand|Khon Kaen|Triple T Broadband Public Company Limited|
+|4|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|5|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|7|62.76.26.232|3128|Russia|Moscow|Start LLC|
+|8|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
+|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|10|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|11|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|13|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|201.238.248.139|9229|Chile|Santiago|Gtd Internet S.A|
+|16|203.150.128.151|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
+|17|181.36.121.222|999|Dominican Republic|San Pedro de Macorís|Altice Dominicana S.A.|
+|18|216.169.73.65|34679|United States|Cedar City|South Central Communications, Inc.|
+|19|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|20|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
