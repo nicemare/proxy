@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4673** proxies at the latest update. Usable proxies are below.
+> Scraper found **4503** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|212|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|212|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|212|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|666|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|496|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|234|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2422|✅|
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|4|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|3|49.51.90.57|3128|Canada|Barrie|OPHL|
+|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|5|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|34.200.136.174|3128|United States|Ashburn|Amazon.com, Inc.|
 |9|139.59.129.114|3128|Germany|Frankfurt am Main|DIGITALOCEAN|
-|10|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
+|10|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
 |11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|13.76.5.26|8080|Singapore|Singapore|Microsoft Corporation|
-|13|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|14|132.248.159.223|3128|Mexico|Tecamac|Universidad Nacional Autonoma de Mexico|
-|15|181.113.225.178|80|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|36.90.15.151|80|Indonesia|Semarang|PT. Telekomunikasi Indonesia|
-|18|192.144.105.14|8080|Brazil|Porto Alegre|Vuppi Internet|
-|19|62.76.26.232|3128|Russia|Moscow|Start LLC|
-|20|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
+|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|13|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|14|188.166.189.106|8080|Singapore|Singapore|DigitalOcean, LLC|
+|15|13.76.5.26|8080|Singapore|Singapore|Microsoft Corporation|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|18|160.119.148.190|8080|Uganda|Kampala|Blue Crane Communications (U) Ltd|
+|19|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|20|34.200.136.174|3128|United States|Ashburn|Amazon.com, Inc.|
 
 
 
