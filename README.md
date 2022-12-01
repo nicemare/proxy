@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4986** proxies at the latest update. Usable proxies are below.
+> Scraper found **5037** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|381|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|381|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|381|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|396|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|396|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|396|
 
 ## Sources
 
@@ -31,9 +31,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|793|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|744|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|480|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2462|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|8|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|9|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|11|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|12|134.73.3.157|3129|United States|Los Angeles|LayerHost|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|15|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|18|190.239.220.83|999|Peru|San Pedro De Cachora|Telefonica del Peru S.A.A.|
-|19|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|20|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|11|134.73.3.8|3129|United States|Los Angeles|LayerHost|
+|12|220.247.171.242|8080|Indonesia|Gandul|PT Indonesia Comnets Plus|
+|13|165.16.113.98|8080|Libya|Tripoli|Aljeel Aljadeed Technology|
+|14|134.73.1.84|3129|United States|Los Angeles|LayerHost|
+|15|144.217.131.61|3148|Canada|Beauharnois|OVH Hosting|
+|16|45.190.170.254|999|Peru|Lima|Softbutterfly SAC|
+|17|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|18|134.73.1.183|3129|United States|Los Angeles|LayerHost|
+|19|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|20|152.44.40.139|5566|United States|Chicago|UpCloud USA Inc|
 
 
 
