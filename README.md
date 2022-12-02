@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5091** proxies at the latest update. Usable proxies are below.
+> Scraper found **4609** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|308|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|308|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|308|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|313|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|313|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|313|
 
 ## Sources
 
@@ -31,38 +31,38 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|788|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|562|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|467|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2485|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2329|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|8|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|11|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
-|12|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|13|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|14|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|15|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|16|52.54.111.140|8888|United States|Ashburn|Amazon.com, Inc.|
-|17|190.68.154.222|999|Colombia|San José del Guaviare|Colombia Telecomunicaciones S.a. ESP|
-|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|19|208.180.105.70|8080|United States|Amarillo|Suddenlink Communications|
-|20|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|4|187.73.188.35|8080|Brazil|Campos do Jordao|Gwg telco telecomunicaçoes eireli|
+|5|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|6|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|7|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|8|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|9|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|10|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|13|177.93.40.178|999|Colombia|Pitalito|TV AZTECA SUCURSAL COLOMBIA|
+|14|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|15|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|16|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|17|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|18|134.73.3.90|3129|United States|Los Angeles|LayerHost|
+|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|20|134.73.1.63|3129|United States|Los Angeles|LayerHost|
 
 
 
