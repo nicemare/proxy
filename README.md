@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4300** proxies at the latest update. Usable proxies are below.
+> Scraper found **4620** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|148|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|148|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|148|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|195|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|195|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|195|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|479|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|799|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|232|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2238|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
-|3|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|1|45.152.188.16|3128|United States|Ashburn|Sprint|
+|2|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |4|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|45.152.188.16|3128|United States|Ashburn|Sprint|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
-|9|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
-|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
+|6|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|7|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
+|8|45.152.188.16|3128|United States|Ashburn|Sprint|
+|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|10|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
 |11|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 |12|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|13|45.152.188.16|3128|United States|Ashburn|Sprint|
-|14|158.69.185.37|3129|Canada|Montreal|OVH SAS|
-|15|36.80.142.28|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
-|18|14.161.31.192|53281|Vietnam|Ho Chi Minh City|VNPT|
-|19|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|191.242.177.110|3128|Brazil|Ituberá|Conect Telecom|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|144.217.131.61|3148|Canada|Beauharnois|OVH Hosting|
+|16|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|17|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|36.80.142.28|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
+|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
