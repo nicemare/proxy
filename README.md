@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5344** proxies at the latest update. Usable proxies are below.
+> Scraper found **4862** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|339|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|339|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|339|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|282|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|282|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|282|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1190|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|706|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|383|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|385|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2420|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.16|3128|United States|Ashburn|Sprint|
-|2|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|3|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
-|6|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|7|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
-|8|65.21.1.151|3897|Finland|Helsinki|Hetzner Online GmbH|
-|9|65.108.223.81|3897|Finland|Helsinki|Hetzner Online GmbH|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|45.152.188.16|3128|United States|Ashburn|Sprint|
+|3|194.94.196.138|80|Germany|Bonn|Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.|
+|4|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|5|103.141.141.38|3128|Vietnam|Hanoi|MEGACORE|
+|6|103.141.141.46|3128|Vietnam|Hanoi|MEGACORE|
+|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|157.100.55.143|999|Ecuador|Guayaquil|Nedetel S.A.|
+|9|103.141.141.63|3128|Vietnam|Hanoi|MEGACORE|
 |10|95.217.191.101|3897|Finland|Helsinki|Hetzner Online GmbH|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|162.240.32.213|154|United States|Provo|Unified Layer|
-|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|11|103.141.141.50|3128|Vietnam|Hanoi|MEGACORE|
+|12|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|13|65.21.1.151|3897|Finland|Helsinki|Hetzner Online GmbH|
+|14|103.141.141.37|3128|Vietnam|Hanoi|MEGACORE|
+|15|65.108.223.81|3897|Finland|Helsinki|Hetzner Online GmbH|
 |16|45.152.188.16|3128|United States|Ashburn|Sprint|
-|17|149.255.39.225|3128|United States|Chicago|HIVELOCITY, Inc.|
-|18|14.140.131.82|3128|India|Ahmedabad|Tata Communications Limited|
-|19|191.97.19.49|999|Venezuela|Caracas|INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)|
-|20|54.196.147.230|8080|United States|Ashburn|Amazon.com, Inc.|
+|17|103.141.141.67|3128|Vietnam|Hanoi|MEGACORE|
+|18|103.141.141.47|3128|Vietnam|Hanoi|MEGACORE|
+|19|134.238.252.143|8080|India|Mumbai|Google LLC|
+|20|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
