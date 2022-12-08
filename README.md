@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4707** proxies at the latest update. Usable proxies are below.
+> Scraper found **4574** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|664|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|645|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|361|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2431|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2317|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|45.152.188.16|3128|United States|Ashburn|Sprint|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|181.143.106.162|52151|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|5|36.84.97.113|80|Indonesia|Surabaya|PT. TELKOM INDONESIA|
-|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|45.152.188.16|3128|United States|Ashburn|Sprint|
-|8|185.141.134.120|8080|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
-|9|103.152.232.84|3128|Indonesia|Subang|PT Kingpolah Network Solutions|
-|10|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|11|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|12|177.250.58.60|8080|Paraguay|Villarrica|CO.PA.CO.|
-|13|18.235.55.193|8080|United States|Ashburn|Amazon.com, Inc.|
-|14|190.120.249.213|8086|Venezuela|San Carlos|CORPORACION FIBEX TELECOM, C.A.|
-|15|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|16|103.247.121.114|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|17|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|18|41.204.87.90|8080|Cameroon|Yaoundé|Camtel Dla-tis Stm16|
-|19|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
-|20|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|1|45.152.188.16|3128|United States|Ashburn|Sprint|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|8|45.152.188.248|3128|United States|Ashburn|Sprint|
+|9|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|10|103.152.232.84|3128|Indonesia|Subang|PT Kingpolah Network Solutions|
+|11|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|12|37.111.51.222|8080|Myanmar|Bhamo|Atom Myanmar Limited|
+|13|45.152.188.16|3128|United States|Ashburn|Sprint|
+|14|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|15|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|16|18.235.55.193|8080|United States|Ashburn|Amazon.com, Inc.|
+|17|45.233.67.203|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
+|18|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|194.145.138.184|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
 
 
 
