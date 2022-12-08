@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4254** proxies at the latest update. Usable proxies are below.
+> Scraper found **4350** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|162|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|162|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|162|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|186|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|186|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|186|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|491|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|615|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|242|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|214|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2270|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|45.152.188.16|3128|United States|Ashburn|Sprint|
-|3|45.152.188.248|3128|United States|Ashburn|Sprint|
-|4|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
-|5|52.155.227.108|3128|Ireland|Dublin|Microsoft Corporation|
-|6|45.152.188.248|3128|United States|Ashburn|Sprint|
-|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|12|45.152.188.16|3128|United States|Ashburn|Sprint|
-|13|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|15|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|16|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
-|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|18|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|19|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|1|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
+|2|52.155.227.108|3128|Ireland|Dublin|Microsoft Corporation|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|6|45.152.188.16|3128|United States|Ashburn|Sprint|
+|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|8|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|9|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|203.150.113.81|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
+|12|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
+|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|123.16.32.162|8080|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
+|17|167.99.60.29|8080|United States|Clifton|DigitalOcean, LLC|
+|18|18.235.55.193|8080|United States|Ashburn|Amazon.com, Inc.|
+|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|20|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
 
 
 
