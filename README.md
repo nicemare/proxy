@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4638** proxies at the latest update. Usable proxies are below.
+> Scraper found **4721** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|198|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|198|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|198|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|226|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|226|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|226|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|685|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|768|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|256|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2446|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|70.44.204.206|8888|United States|Reading|PenTeleData Inc.|
-|2|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
-|3|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|4|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|6|31.6.69.119|39811|Poland|Tarnowskie Gory|Livenet sp. z o.o.|
-|7|148.72.246.227|9453|Singapore|Singapore|GoDaddy.com, LLC|
-|8|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|9|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|12|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
-|16|66.29.140.150|3128|Guinea|Macenta|Namecheap, Inc.|
-|17|190.43.92.26|999|Peru|Tacna|Telefonica Del Peru|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|181.205.116.218|9812|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|20|189.232.85.95|8080|Mexico|Tlaxcoapan|Uninet S.A. de C.V.|
+|1|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|2|134.238.252.143|8080|India|Mumbai|Google LLC|
+|3|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|5|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|6|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
+|7|70.44.204.206|8888|United States|Reading|PenTeleData Inc.|
+|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|9|148.72.246.227|9453|Singapore|Singapore|GoDaddy.com, LLC|
+|10|150.95.81.164|8080|Thailand|Kanchanaburi|ZCOM|
+|11|118.99.73.76|8080|Indonesia|Jakarta|BIZNET|
+|12|190.102.226.196|999|Chile|Casablanca|Pacifico Cable SPA.|
+|13|113.178.72.204|8080|Vietnam|Hanoi|VNPT|
+|14|103.179.139.115|8080|Indonesia|Jakarta|PT. Fiber Networks Indonesia|
+|15|36.95.15.148|8080|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
+|16|200.7.11.105|8080|Brazil|Itumbiara|Conexao Telematica LTDA|
+|17|66.29.140.150|3128|Guinea|Macenta|Namecheap, Inc.|
+|18|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|19|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|20|75.126.253.8|8080|United States|Dallas|SoftLayer|
 
 
 
