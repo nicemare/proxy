@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4904** proxies at the latest update. Usable proxies are below.
+> Scraper found **4459** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|366|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|366|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|366|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
 
 ## Sources
 
@@ -32,10 +32,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|789|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|618|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|418|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|444|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2446|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.248|3128|United States|Ashburn|Sprint|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|45.152.188.248|3128|United States|Ashburn|Sprint|
-|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|8|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|10|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|11|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|178.35.152.62|8080|Russia|Kamyshin|Volgograd Electro Svyaz|
-|14|150.95.81.164|8080|Thailand|Kanchanaburi|ZCOM|
-|15|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|16|201.131.238.98|999|Mexico|Fresnillo|Telecable del Mineral, S. A. de C.V.|
-|17|177.52.221.125|3128|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
-|18|34.82.107.67|80|United States|The Dalles|Google LLC|
-|19|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|20|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|4|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|8|161.53.129.23|3128|Croatia|Zagreb|Croatian Academic and Research Network|
+|9|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|10|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|11|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|12|34.82.107.67|80|United States|The Dalles|Google LLC|
+|13|150.95.81.164|8080|Thailand|Kanchanaburi|ZCOM|
+|14|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
+|15|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
+|16|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|17|34.82.107.67|80|United States|The Dalles|Google LLC|
+|18|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|19|94.103.85.88|9300|Russia|Moscow|VDSINA|
+|20|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 
 
 
