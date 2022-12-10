@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4797** proxies at the latest update. Usable proxies are below.
+> Scraper found **4802** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|274|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|274|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|274|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|239|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|239|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|239|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|708|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|661|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|323|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|375|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2515|✅|
 
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|7|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
-|8|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|9|140.227.25.191|23456|Japan|Yonabaru|InfoSphere|
-|10|185.8.165.134|8800|Czechia|Prague|Master Internet s.r.o.|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|200.6.136.159|8080|Brazil|Altamira|MOV TELECOM LTDA|
-|13|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|14|14.161.31.192|53281|Vietnam|Ho Chi Minh City|VNPT|
-|15|5.16.0.97|1256|Russia|Moscow|Enforta-MSK|
-|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|17|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|19|101.109.45.189|8080|Thailand|Chachoengsao|TOT Public Company Limited|
-|20|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|181.215.178.67|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|4|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|5|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
+|6|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|7|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|185.8.165.134|8800|Czechia|Prague|Master Internet s.r.o.|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|13|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|14|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|15|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|16|45.172.19.155|999|Brazil|Bonsucesso|Wireless Provider|
+|17|200.6.136.159|8080|Brazil|Altamira|MOV TELECOM LTDA|
+|18|200.116.226.210|43049|Colombia|Barranquilla|EPM Telecomunicaciones S.A. E.S.P|
+|19|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|20|103.242.105.208|8080|Indonesia|Karawang|PT Lintas Jaringan Nusantara|
 
 
 
