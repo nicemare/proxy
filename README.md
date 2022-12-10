@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4572** proxies at the latest update. Usable proxies are below.
+> Scraper found **4503** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|263|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|263|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|263|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|594|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|631|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|377|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|271|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2350|✅|
 
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|173.82.252.145|3129|United States|Portland|Multacom Corporation|
-|4|173.82.252.145|3129|United States|Portland|Multacom Corporation|
-|5|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
-|6|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|7|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|8|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|10|43.229.135.183|8118|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|217.219.74.130|8888|Iran|Tehran|Iran Telecommunication Company PJS|
-|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|45.152.188.248|3128|United States|Ashburn|Sprint|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|5|45.152.188.248|3128|United States|Ashburn|Sprint|
+|6|173.82.252.145|3129|United States|Portland|Multacom Corporation|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|9|181.215.178.67|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|10|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|11|204.199.174.60|999|Peru|Arequipa|Fiberred Sociedad Anonima Cerrada|
+|12|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|13|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
 |14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|190.2.210.115|999|Colombia|Barbacoas|TV AZTECA SUCURSAL COLOMBIA|
-|16|139.59.59.122|8118|India|Bengaluru|DIGITALOCEAN|
-|17|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|18|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|19|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|20|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|18|34.82.107.67|80|United States|The Dalles|Google LLC|
+|19|216.176.187.99|8889|United States|Los Angeles|Wowrack.com|
+|20|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
 
 
 
