@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|226|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|226|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|226|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|267|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|267|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|267|
 
 ## Sources
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|1|45.152.188.248|3128|United States|Ashburn|Sprint|
+|2|93.177.73.122|8888|Germany|Frankfurt am Main|M247 Europe SRL|
 |3|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|4|45.152.188.248|3128|United States|Ashburn|Sprint|
-|5|45.152.188.248|3128|United States|Ashburn|Sprint|
-|6|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|101.109.61.213|8080|Thailand|Chon Buri|TOT Public Company Limited|
-|8|110.78.186.87|8080|Thailand|Chachoengsao|CAT-BB|
-|9|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|13|70.177.15.10|8080|United States|Gilbert|Cox Communications Inc.|
-|14|52.45.139.115|80|United States|Ashburn|Amazon.com, Inc.|
-|15|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|16|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|17|134.238.252.143|8080|India|Mumbai|Google LLC|
-|18|103.125.174.55|8080|Indonesia|Deli Serdang|PT Trinity Teknologi Nusantara|
-|19|50.235.149.74|8080|United States|Chicago|Comcast Cable Communications, LLC|
-|20|205.207.103.97|8282|United States|Centreville|ALTIUS Broadband, LLC|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|110.78.186.87|8080|Thailand|Chachoengsao|CAT-BB|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|10|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|45.152.188.248|3128|United States|Ashburn|Sprint|
+|12|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|13|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|14|78.30.230.117|50932|Ukraine|Sevastopol|Lancom Ltd.|
+|15|3.139.218.146|3128|United States|Dublin|Amazon.com, Inc.|
+|16|167.114.96.27|9300|Canada|Montreal|OVH SAS|
+|17|159.27.25.221|9999|China|Beimeng|Shanghai Blue Cloud Technology Co., Ltd|
+|18|77.38.21.239|8080|Slovenia|Slovenj Gradec|Telemach UG d.o.o.|
+|19|37.204.157.91|41890|Russia|Moscow|NCNET|
+|20|101.109.61.213|8080|Thailand|Chon Buri|TOT Public Company Limited|
 
 
 
