@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **4864** proxies at the latest update. Usable proxies are below.
+> Scraper found **4963** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|219|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|219|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|219|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|709|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|808|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|362|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2542|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|45.152.188.248|3128|United States|Ashburn|Sprint|
-|5|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|45.161.161.216|5566|Brazil|Patos de Minas|Maykon Leonel Silvano-ME|
-|9|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|199.33.117.49|8000|United States|Houston|Telmate, LLC|
-|12|188.133.154.16|8080|Russia|Moscow|Enforta-MSK|
-|13|103.94.122.50|8080|Indonesia|Gandul|ICONPLN|
-|14|200.106.187.247|999|Argentina|Jose Maria Ezeiza|Fullnet Solutions S.A.S.|
-|15|199.33.117.49|8000|United States|Houston|Telmate, LLC|
-|16|38.43.77.155|999|Argentina|Chimbas|RED SOFT SOLUCIONES INFORMATICAS S.A.S|
-|17|179.60.240.69|53281|Colombia|Barranquilla|ITELKOM|
-|18|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|19|52.7.168.82|80|United States|Ashburn|Amazon.com, Inc.|
-|20|216.169.73.65|34679|United States|Cedar City|South Central Communications, Inc.|
+|2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|119.42.86.39|8080|Thailand|Samphanthawong|CAT-BB|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|45.152.188.248|3128|United States|Ashburn|Sprint|
+|7|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|9|45.235.46.94|8080|Brazil|Santo Antonio de Goias|Live Internet|
+|10|135.12.192.212|3128|United States|Sterling|Carrytel|
+|11|135.12.204.22|3128|United States|Sterling|Carrytel|
+|12|85.113.135.49|55443|Russia|Voronezh|Intercon JSC|
+|13|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|14|135.12.198.97|3128|United States|Sterling|Carrytel|
+|15|45.161.161.216|5566|Brazil|Patos de Minas|Maykon Leonel Silvano-ME|
+|16|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|17|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
+|18|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|19|134.238.252.143|8080|India|Mumbai|Google LLC|
+|20|45.231.221.193|999|Mexico|Tijuana|Distrokom S De RL De CV|
 
 
 
