@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5076** proxies at the latest update. Usable proxies are below.
+> Scraper found **5030** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|346|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|346|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|346|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|328|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|328|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|328|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1019|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|896|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|415|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|492|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2391|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|2|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|3|116.203.201.82|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|157.230.209.225|3128|United States|North Bergen|DigitalOcean, LLC|
-|6|157.230.209.225|3128|United States|North Bergen|DigitalOcean, LLC|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
-|9|103.231.241.102|3128|Philippines|Quezon City|De La Salle University|
-|10|103.171.44.116|80|India|Jaipur|Cloudtechtiq Technologies Pvt Ltd|
-|11|70.177.15.10|8080|United States|Gilbert|Cox Communications Inc.|
-|12|143.244.133.78|80|India|Bengaluru|DigitalOcean, LLC|
-|13|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|16|135.12.203.91|3128|United States|Sterling|Carrytel|
-|17|122.3.41.154|8090|Philippines|Manila|Philippine Long Distance Telephone Co.|
-|18|154.85.55.174|3128|United States|Los Angeles|Beijing Baidu Netcom Science and Technology Co., Ltd.|
-|19|135.12.192.163|3128|United States|Sterling|Carrytel|
-|20|200.106.184.21|999|Argentina|Jose Maria Ezeiza|Fullnet Solutions S.A.S.|
+|1|45.152.188.248|3128|United States|Ashburn|Sprint|
+|2|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|4|45.152.188.248|3128|United States|Ashburn|Sprint|
+|5|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|82.99.194.30|3128|Iran|Khorramshahr|ParsOnline Co.|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|12|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|103.231.241.102|3128|Philippines|Quezon City|De La Salle University|
+|16|50.246.120.125|8080|United States|Washington|Comcast Cable Communications, LLC|
+|17|185.19.4.22|3128|Ukraine|Poltava|Triolan|
+|18|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|19|189.203.10.8|3128|Mexico|Oaxaca City|Total Play Telecomunicaciones SA De CV|
+|20|103.11.106.37|8080|Indonesia|Madiun|PT. Pascal Indonesia|
 
 
 
