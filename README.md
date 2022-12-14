@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5152** proxies at the latest update. Usable proxies are below.
+> Scraper found **4985** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|482|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|482|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|482|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|299|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|299|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|299|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|882|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|715|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|428|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2606|✅|
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |2|103.114.162.212|31181|United States|Las Vegas|DediPath|
-|3|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|4|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
-|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|6|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
-|7|186.3.38.200|999|Ecuador|Cuenca|Telconet S.A|
-|8|95.0.90.243|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
-|9|103.114.162.212|31181|United States|Las Vegas|DediPath|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|94.75.76.10|8080|Poland|Warsaw|ASTER Sp. z o.o|
-|12|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|13|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|14|82.99.194.30|3128|Iran|Khorramshahr|ParsOnline Co.|
-|15|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|16|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|17|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|18|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|20|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|5|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
+|6|103.114.162.212|31181|United States|Las Vegas|DediPath|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|11|185.120.162.28|443|Iran|Tehran|Khallagh Borhan Market Development for Creative Industries Co|
+|12|38.51.243.145|999|Colombia|Tuquerres|INTERCOMM DE NARIÑO SAS|
+|13|5.58.58.209|8080|Ukraine|Ternopil|Columbus|
+|14|180.211.158.122|58375|Bangladesh|Dhaka|Bangladesh Telecommunications Company Ltd.|
+|15|103.66.10.101|8080|India|Nagar|Nitya Internet Private Limited|
+|16|63.250.53.181|3128|United Kingdom|London|HIVELOCITY, Inc.|
+|17|51.159.115.233|3128|France|Paris|SCALEWAY|
+|18|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
+|19|143.244.133.78|80|India|Bengaluru|DigitalOcean, LLC|
+|20|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
 
 
 
