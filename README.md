@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6828** proxies at the latest update. Usable proxies are below.
+> Scraper found **6433** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|828|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|828|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|828|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|805|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|805|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|805|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1553|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1158|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1124|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2900|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|135.148.95.28|3128|United States|Reston|OVH SAS|
-|2|181.191.226.1|999|Venezuela|Maturín|MANGO NETWORK, C. A. MANGONET, C. A|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|6|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|7|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|9|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|5.39.105.211|3128|France|Lyon|OVH SAS|
-|12|103.175.49.78|8080|Indonesia|Sukabumi|PT. Trans Indonesia Superkoridor|
-|13|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|14|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|15|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
-|16|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|2|5.39.105.211|3128|France|Lyon|OVH SAS|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|9|34.254.90.167|9812|Ireland|Dublin|Amazon Technologies Inc.|
+|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|11|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|14|162.245.81.151|8811|United States|Buffalo|ColoUp|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|45.233.67.201|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
 |17|162.245.81.151|8811|United States|Buffalo|ColoUp|
-|18|135.148.95.28|3128|United States|Reston|OVH SAS|
-|19|134.238.252.143|8080|India|Mumbai|Google LLC|
-|20|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|18|190.43.92.20|999|Peru|Tacna|Telefonica Del Peru|
+|19|135.148.95.28|3128|United States|Reston|OVH SAS|
+|20|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
 
 
 
