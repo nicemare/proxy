@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6071** proxies at the latest update. Usable proxies are below.
+> Scraper found **5561** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|497|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|497|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|497|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|260|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|260|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|260|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1326|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|699|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|723|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|840|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2771|✅|
 
 
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|4|181.189.246.88|999|Honduras|El Progreso|Columbus Networks de Honduras S. de R.L.|
-|5|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|6|80.66.81.40|8080|Ukraine|Odesa|Shulzhenko Bohdana Valentynivna|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|186.151.58.100|8080|Guatemala|Guatemala City|Telgua|
-|10|87.255.12.183|3129|Russia|Khimki|BIG TELECOM CLOSED JSC|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|13|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|15|54.151.6.61|3128|United States|San Jose|Amazon.com, Inc.|
-|16|185.49.170.20|43626|Spain|Madrid|OLIVE|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|145.40.121.15|3128|Brazil|São Paulo|Packet Host, Inc.|
-|19|189.126.72.97|20183|Brazil|Beberibe|Provedornet Telecom. e Serviços de Internet Ltda|
-|20|103.159.195.9|80|Indonesia|Demak|PT Giga Digital Nusantara|
+|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|54.151.6.61|3128|United States|San Jose|Amazon.com, Inc.|
+|11|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|12|54.151.6.61|3128|United States|San Jose|Amazon.com, Inc.|
+|13|188.133.136.105|1256|Russia|Moscow|Enforta-MSK|
+|14|178.239.157.11|514|Iran|Ahvaz|Toloe Rayaneh Loghman Educational and Cultural Co.|
+|15|103.53.78.26|8080|Indonesia|Wonorejo|INTI|
+|16|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|18|166.111.83.64|4780|China|Haidian|China Education and Research Network Center|
+|19|163.177.106.4|8001|China|Shenzhen|China Unicom Guangdong Province Network|
+|20|111.225.152.60|8089|China|Gaocheng|Chinanet|
 
 
 
