@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5919** proxies at the latest update. Usable proxies are below.
+> Scraper found **5513** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|516|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|516|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|516|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|650|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|650|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|650|
 
 ## Sources
 
@@ -32,8 +32,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1141|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1035|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|765|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2762|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|8|192.155.95.228|10000|United States|Atlanta|Linode, LLC|
-|9|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|125.26.160.74|8080|Thailand|Wang Sam Mo|TOT Public Company Limited|
-|14|203.150.128.200|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|15|180.183.0.17|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
-|16|149.56.96.252|9300|Canada|Montreal|OVH SAS|
-|17|103.141.108.122|8080|Indonesia|Blitar|Data Buana Nusantara|
-|18|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|19|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|20|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|94.130.72.212|44440|Germany|Nuremberg|Hetzner Online GmbH|
+|4|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|10|5.58.110.249|8080|Ukraine|Ternopil|Columbus|
+|11|203.150.128.200|8080|Thailand|Watthana|Internet Thailand Company Ltd|
+|12|180.183.0.17|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
+|13|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|14|101.255.85.114|8080|Indonesia|Bekasi|PT Remala Abadi|
+|15|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|16|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|17|103.16.160.70|10000|Vietnam|Chúc Sơn|ANH|
+|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|152.32.187.164|8118|Hong Kong|Central|UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED|
 
 
 
