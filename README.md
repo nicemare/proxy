@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5805** proxies at the latest update. Usable proxies are below.
+> Scraper found **6513** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|488|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|488|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|488|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|838|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|838|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|838|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1003|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1460|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|868|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2683|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|852|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2950|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|3|85.193.92.239|8118|Poland|Ełk|Artnet Sp. z o.o.|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|6|45.177.55.102|999|Dominican Republic|Santiago de los Caballeros|Ingenieria EN Servicios De Telecomunicaciones Agml SRL|
-|7|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|8|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|9|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|10|183.88.187.241|18080|Thailand|Nonthaburi|Triple T Broadband Public Company Limited|
-|11|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|12|5.39.105.211|3128|France|Lyon|OVH SAS|
-|13|212.108.144.67|8080|Cyprus|Nicosia|Lifecell Digital LTD|
-|14|95.154.76.20|3128|Russia|Vladivostok|OCTOPUSNET-NAT-POOL13 2ap|
-|15|190.110.99.183|999|Chile|Las Condes|Silica Networks Argentina S.A.|
-|16|173.219.112.85|8080|United States|Chicago|Suddenlink Communications|
-|17|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|18|102.165.127.85|8080|Nigeria|Lekki|Internet Solutions Nigeria Limited|
-|19|8.242.190.116|999|Colombia|Pasto|Dobleclick Software E Ingenieria|
-|20|170.81.37.54|8080|Brazil|Chapadao Do Sul|M2B - SOLUCOES EM TECNOLOGIA EIRELLI ME|
+|3|187.204.35.179|53281|Mexico|Tamazula de Gordiano|Uninet S.A. de C.V.|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|6|94.130.72.212|44440|Germany|Nuremberg|Hetzner Online GmbH|
+|7|188.132.222.11|8080|Turkey|Skutari|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|9|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|11|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|14|167.250.47.187|8080|Brazil|Realeza|Inova Fibra|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|181.191.226.199|999|Venezuela|Maturín|MANGO NETWORK, C. A. MANGONET, C. A|
+|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|20|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
 
 
 
