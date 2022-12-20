@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6186** proxies at the latest update. Usable proxies are below.
+> Scraper found **5925** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|655|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|655|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|655|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|458|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|458|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|458|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1396|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1135|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|717|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2822|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
 |2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|38.140.227.250|8080|United States|Tampa|Cogent Communications|
-|6|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|7|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|8|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|9|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|10|147.139.191.118|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|80.66.81.40|8080|Ukraine|Odesa|Shulzhenko Bohdana Valentynivna|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|9|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|10|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
 |11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|13|147.139.190.169|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|5.39.105.211|3128|France|Lyon|OVH SAS|
-|16|180.183.7.84|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|17|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|18|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
-|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|12|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|13|27.79.100.9|2222|Vietnam|Hanoi|Viettel Corporation|
+|14|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|15|180.183.7.84|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
+|16|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|17|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|200.114.87.229|8080|Argentina|Florencio Varela|Citarella S.A|
 
 
 
