@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6033** proxies at the latest update. Usable proxies are below.
+> Scraper found **6071** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|371|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|371|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|371|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|378|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|378|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|378|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1270|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1308|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|778|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2734|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|159.192.249.6|8080|Thailand|Bangkok|CAT-BB|
-|5|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|165.16.80.98|1976|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|8|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|9|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|10|129.153.107.221|80|United States|Phoenix|Oracle Corporation|
-|11|80.65.28.57|30962|Russia|Krasnoyarsk|Orion Telecom LLC|
-|12|190.43.92.11|999|Peru|Tacna|Telefonica Del Peru|
-|13|103.180.135.104|10006|Vietnam|Hanoi|Httvserver Technology Company Limited|
-|14|103.175.46.147|8181|Indonesia|Sumber|PT Internet Keluarga Indonesia|
-|15|212.154.23.5|9090|Turkey|Istanbul|TurkNet Iletisim Hizmetleri|
-|16|103.161.180.163|10008|Vietnam|Động Tam|THAIAN|
-|17|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|19|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|20|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|3|134.238.252.143|8080|India|Mumbai|Google LLC|
+|4|103.161.180.163|10008|Vietnam|Động Tam|THAIAN|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|194.145.138.19|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
+|7|103.180.135.104|10006|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|8|103.180.138.157|10003|Vietnam|Ho Chi Minh City|TANHOANGVINA|
+|9|45.156.29.55|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
+|10|212.154.23.5|9090|Turkey|Istanbul|TurkNet Iletisim Hizmetleri|
+|11|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|12|45.233.67.225|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
+|13|193.161.215.20|8080|Russia|Krasnodar|TSK LLC|
+|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|15|202.180.16.1|8080|Indonesia|Cimahi|PT. HIPERNET INDODATA|
+|16|113.125.8.114|9002|China|Xintai|Cloud Computing Corporation|
+|17|77.247.126.194|3128|United States|Los Angeles|Clouvider Limited|
+|18|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|19|149.129.213.92|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|20|77.236.236.44|8080|Russia|Moscow|Enforta-MSK|
 
 
 
