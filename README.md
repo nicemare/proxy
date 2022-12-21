@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5608** proxies at the latest update. Usable proxies are below.
+> Scraper found **5689** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|441|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|441|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|441|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|570|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|570|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|570|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1019|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1100|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|668|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2670|✅|
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|4|134.238.252.143|8080|India|Mumbai|Google LLC|
-|5|93.115.225.84|8080|Iran|Tehran|Asiatech xDSL Network|
-|6|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
-|7|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|8|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
-|9|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|12|138.0.206.87|9292|Brazil|Nova Luzitania|L. Garcia Comunicações ME|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|43.224.10.5|8888|India|Surat|gtpl hariom world vision|
-|15|3.94.120.244|9812|United States|Ashburn|Amazon Technologies Inc.|
-|16|159.192.249.6|8080|Thailand|Bangkok|CAT-BB|
-|17|158.255.215.50|9090|France|Saint-Mande|Edis France|
-|18|176.99.2.43|1081|Russia|Moscow|"Domain names registrar REG.RU", Ltd|
-|19|182.93.82.191|8080|Nepal|Kathmandu|Subisu Cablenet|
-|20|5.153.234.91|3128|Sweden|Stockholm|Inter Connects Inc|
+|2|145.14.157.80|3128|Netherlands|Meppel|Hostinger International Limited|
+|3|80.66.81.40|8080|Ukraine|Odesa|Shulzhenko Bohdana Valentynivna|
+|4|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|6|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
+|7|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|8|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|9|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|10|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|11|147.139.191.118|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|12|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|13|101.109.51.152|8080|Thailand|Bangkok|TOT Public Company Limited|
+|14|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|15|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|16|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|17|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|18|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|19|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|20|93.115.225.84|8080|Iran|Tehran|Asiatech xDSL Network|
 
 
 
