@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5678** proxies at the latest update. Usable proxies are below.
+> Scraper found **5714** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|434|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|434|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|434|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|403|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|403|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|403|
 
 ## Sources
 
@@ -33,10 +33,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1024|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1093|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|675|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2728|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2695|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|50.114.128.17|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
-|2|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|3|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|119.110.73.226|3888|Indonesia|Lagoa|Maxindo|
-|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|8|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|9|103.155.62.163|8080|Pakistan|Lahore|KK Networks (Pvt) Ltd.|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|12|147.139.190.169|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|13|190.152.5.126|53040|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
-|14|212.86.75.16|8080|Iran|Qazvin|Homaye Jahan Nama Ltd|
-|15|36.95.17.93|9812|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
-|16|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|17|50.246.120.125|8080|United States|Washington|Comcast Cable Communications, LLC|
-|18|93.177.229.164|9812|Latvia|Daugavpils|BALTKOM Riga|
-|19|93.175.204.173|8080|Ukraine|Ivano-Frankivsk|Teleradiocompany Discovery Ltd|
-|20|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|3|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|4|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|5|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|50.246.120.125|8080|United States|Washington|Comcast Cable Communications, LLC|
+|10|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
+|11|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|12|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|13|119.110.73.226|3888|Indonesia|Lagoa|Maxindo|
+|14|103.156.249.34|8085|Indonesia|Malang|Trans Media Telekomunikasi|
+|15|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|16|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|17|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|18|103.141.108.122|8080|Indonesia|Blitar|Data Buana Nusantara|
+|19|103.155.62.163|8080|Pakistan|Lahore|KK Networks (Pvt) Ltd.|
+|20|190.152.5.126|53040|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
 
 
 
