@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6306** proxies at the latest update. Usable proxies are below.
+> Scraper found **6273** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|601|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|601|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|601|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|577|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|577|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|577|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1309|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1244|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|651|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|683|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3095|✅|
 
 
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|50.114.128.17|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
 |2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|9|187.216.90.46|53281|Mexico|Cabo San Lucas|Uninet S.A. de C.V.|
-|10|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|11|5.104.174.199|23500|Bulgaria|Dobrich|DobrudjaCable Ltd.|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|158.255.215.50|9090|France|Saint-Mande|Edis France|
-|14|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|15|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|6|47.74.226.8|5001|Singapore|Singapore|Alibaba Cloud (Singapore) Private Limited|
+|7|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|149.129.246.3|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|14|5.153.234.91|3128|Sweden|Stockholm|Inter Connects Inc|
+|15|45.23.54.102|8888|United States|St Louis|AT&T Services, Inc.|
 |16|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
-|17|103.141.108.122|8080|Indonesia|Blitar|Data Buana Nusantara|
-|18|5.153.234.91|3128|Sweden|Stockholm|Inter Connects Inc|
-|19|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|20|70.90.138.109|8080|United States|Saint Clair|Comcast Cable Communications, LLC|
+|17|201.222.83.145|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|18|14.207.244.153|8080|Thailand|Si Prachan|Triple T Broadband Public Company Limited|
+|19|147.139.191.118|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|20|163.172.84.250|9741|France|Paris|Online S.A.S.|
 
 
 
