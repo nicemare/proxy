@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6089** proxies at the latest update. Usable proxies are below.
+> Scraper found **5881** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|560|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|560|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|560|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|467|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|467|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|467|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1142|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1109|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|601|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3095|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|657|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2864|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|50.114.128.17|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|149.129.246.3|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|4|101.32.184.53|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|5|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|7|194.195.250.50|3128|Australia|Sydney|Linode, LLC|
-|8|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
-|9|123.31.17.59|3128|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
-|10|5.153.234.91|3128|Sweden|Stockholm|Inter Connects Inc|
-|11|14.225.44.118|3128|Vietnam|Hanoi|Vietnam Posts and Telecommunications Group|
-|12|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|13|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|14|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|15|103.151.30.90|8080|Bangladesh|Tongi|Bright Star Network|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|191.97.14.26|999|Colombia|Moniquira|TV AZTECA SUCURSAL COLOMBIA|
-|18|20.121.184.238|80|United States|Boydton|Microsoft Corporation|
-|19|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|20|210.179.58.236|80|South Korea|Naju-si|Korea Telecom|
+|1|184.105.186.70|3128|United States|Omaha|Hurricane Electric LLC|
+|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|186.3.0.164|999|Ecuador|Guayaquil|Telconet S.A|
+|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|10|101.255.167.174|8080|Indonesia|Bekasi|PT Remala Abadi|
+|11|67.52.175.140|8080|United States|Yucaipa|Spectrum|
+|12|103.161.113.250|10010|Vietnam|Ho Chi Minh City|Viet Digital Technology Liability Company|
+|13|203.150.128.61|8080|Thailand|Watthana|Internet Thailand Company Ltd|
+|14|181.115.187.218|8080|Bolivia|La Paz|Entel S.A. - EntelNet|
+|15|45.4.252.182|999|Argentina|San Ignacio|Fernando German Fischer (FIBERNET TELECOM)|
+|16|46.219.80.142|57401|Ukraine|Kyiv|o3 core|
+|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|18|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|19|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
+|20|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
 
 
 
