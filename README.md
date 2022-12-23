@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5857** proxies at the latest update. Usable proxies are below.
+> Scraper found **5704** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|572|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|572|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|572|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|485|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|485|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|485|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1185|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1032|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|682|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2739|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|50.114.128.17|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
-|2|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|3|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|4|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
 |5|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|6|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|7|173.47.77.210|80|United States|Boise|Cable ONE|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|203.150.113.61|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|11|86.120.67.60|3128|Romania|Botosani|RCS & RDS|
-|12|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|13|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
-|14|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|15|117.121.202.62|8888|Indonesia|Tegalsari|PT Sekawan Global Komunika|
-|16|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
-|17|216.169.73.65|34679|United States|Cedar City|South Central Communications, Inc.|
-|18|103.156.74.251|8181|Indonesia|Ubud|PT Trika Global Media|
-|19|80.253.138.130|3128|Iran|Tehran|Torange Back UP|
-|20|36.67.114.242|41890|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
+|6|181.191.226.1|999|Venezuela|Maturín|MANGO NETWORK, C. A. MANGONET, C. A|
+|7|163.172.37.158|9741|France|Vitry-sur-Seine|Online S.A.S.|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|185.19.4.22|3128|Ukraine|Poltava|Triolan|
+|13|1.32.59.217|47045|Malaysia|Seremban|Telekom Malaysia Berhad|
+|14|45.168.65.2|8080|Brazil|São Paulo|Thiago aparecido scaramuzza santana|
+|15|188.132.222.41|8080|Turkey|Orhanlı|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|16|80.253.138.130|3128|Iran|Tehran|Torange Back UP|
+|17|4.59.83.198|8080|United States|Naples|Level 3|
+|18|178.150.148.38|8282|Ukraine|Kharkiv|Triolan|
+|19|191.103.219.225|48612|Colombia|Montería|Edatel S.a. E.S.P|
+|20|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
 
 
 
