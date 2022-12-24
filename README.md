@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5891** proxies at the latest update. Usable proxies are below.
+> Scraper found **6191** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|326|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|326|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|326|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|597|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|597|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|597|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1017|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1197|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|637|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2986|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3106|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
 |4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|5|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|149.255.39.225|3128|United States|Chicago|HIVELOCITY, Inc.|
-|8|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|9|103.16.215.10|10000|Vietnam|Hanoi|Httvserver Technology Company Limited|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|103.16.225.164|10017|Vietnam|Hanoi|Httvserver Technology Company Limited|
-|12|14.97.155.42|3128|India|Delhi|Tata Teleservices LTD - Tata Indicom - Cdma Division|
-|13|201.174.10.170|999|Mexico|Nogales|Transtelco Inc|
-|14|50.114.134.12|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
-|15|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|16|50.114.129.157|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
-|17|34.134.91.130|3128|United States|Council Bluffs|Google LLC|
-|18|50.114.135.229|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
-|19|185.218.126.155|39811|Germany|Düsseldorf|Contabo GmbH|
-|20|116.99.125.78|3128|Vietnam|Ho Chi Minh City|Viettel Corporation|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|9|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|10|183.178.214.186|9091|Hong Kong|Central|Hong Kong Broadband Network Ltd|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|103.124.137.35|8080|Indonesia|Tamanan|Global Media Data Prima|
+|13|110.78.186.106|8080|Thailand|Chachoengsao|CAT-BB|
+|14|103.16.215.10|10017|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|17|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
+|18|74.208.235.70|80|United States|Philadelphia|IONOS SE|
+|19|201.71.2.135|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|20|103.180.135.55|10000|Vietnam|Hanoi|Httvserver Technology Company Limited|
 
 
 
