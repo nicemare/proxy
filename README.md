@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **7221** proxies at the latest update. Usable proxies are below.
+> Scraper found **7132** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|827|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|827|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|827|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|972|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|972|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|972|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1789|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1614|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|988|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1074|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3193|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|3|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|4|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
-|5|34.82.217.181|5555|United States|The Dalles|Google LLC|
-|6|45.42.177.39|3128|United States|Ashburn|Sprint|
-|7|208.82.61.75|3128|United States|Ashburn|Bernardi Sounds|
-|8|18.159.181.93|8081|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|9|5.253.16.131|9000|Hong Kong|Chai Wan|XTOM|
-|10|188.166.232.122|443|Singapore|Singapore|DigitalOcean, LLC|
-|11|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|12|149.129.218.191|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|13|45.42.177.39|3128|United States|Ashburn|Sprint|
-|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|1|45.42.177.39|3128|United States|Ashburn|Sprint|
+|2|45.42.177.99|3128|United States|Ashburn|Sprint|
+|3|208.82.61.75|3128|United States|Ashburn|Bernardi Sounds|
+|4|18.159.181.93|8081|Germany|Frankfurt am Main|Amazon.com, Inc.|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|7|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|8|45.42.177.39|3128|United States|Ashburn|Sprint|
+|9|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|10|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|11|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|12|191.252.196.14|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
+|13|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|14|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|15|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|16|188.166.232.122|443|Singapore|Singapore|DigitalOcean, LLC|
 |17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|18|82.65.249.238|8080|France|Paris|Proxad / Free SAS|
-|19|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|20|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|18|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|19|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|20|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 
 
 
