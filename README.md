@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6816** proxies at the latest update. Usable proxies are below.
+> Scraper found **6844** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|871|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|871|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|871|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|763|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|763|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|763|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1670|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1677|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|803|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|824|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2992|✅|
 
 
@@ -44,25 +44,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|191.97.15.19|999|Colombia|Chiscas|TV AZTECA SUCURSAL COLOMBIA|
-|6|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|7|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|8|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|2|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|5|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|6|185.212.44.235|3128|Germany|Frankfurt am Main|VPS2day.com|
+|7|188.72.82.200|8118|Netherlands|Amsterdam|PureVPN|
+|8|191.97.15.19|999|Colombia|Chiscas|TV AZTECA SUCURSAL COLOMBIA|
+|9|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |10|178.63.237.147|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|11|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
+|11|35.193.113.186|80|United States|Council Bluffs|Google LLC|
 |12|139.59.241.101|443|Singapore|Singapore|DigitalOcean, LLC|
-|13|184.82.226.234|8080|Thailand|Nonthaburi|AIS-Fibre|
-|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|15|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|16|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|17|150.95.80.228|8000|Thailand|Kanchanaburi|ZCOM|
-|18|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|19|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|20|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|14|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|17|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|18|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|19|184.82.226.234|8080|Thailand|Nonthaburi|AIS-Fibre|
+|20|103.170.120.137|10000|Vietnam|Hanoi|Httvserver Technology Company Limited|
 
 
 
