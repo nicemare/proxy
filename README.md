@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5973** proxies at the latest update. Usable proxies are below.
+> Scraper found **5826** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|402|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|402|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|402|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|473|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|473|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|473|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1262|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1185|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|611|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|541|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2749|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
-|3|66.175.221.108|3129|United States|Fremont|Linode, LLC|
-|4|45.170.252.116|3128|United States|Miami|ReliableSite.Net LLC|
-|5|142.202.48.131|3128|United States|New York|GTHost|
-|6|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|181.188.156.173|3128|Bolivia|Santa Cruz|Telefónica Celular de Bolivia S.A.|
-|9|143.198.56.234|443|United States|Santa Clara|DigitalOcean, LLC|
-|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|11|20.120.169.80|3128|United States|Quincy|Microsoft Corporation|
-|12|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
-|13|45.148.145.108|3128|Netherlands|Dronten|Serverius|
-|14|143.198.56.234|443|United States|Santa Clara|DigitalOcean, LLC|
-|15|181.204.177.67|999|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
-|16|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
-|17|100.8.136.152|3128|United States|Matawan|Verizon Business|
-|18|85.109.95.187|9090|Turkey|Istanbul|Turk Telekomunikasyon A.S|
-|19|165.232.142.228|3128|United States|Santa Clara|DigitalOcean, LLC|
-|20|82.115.17.188|8080|Germany|Frankfurt am Main|BitCommand LLC|
+|1|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|2|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|3|142.202.48.131|3128|United States|New York|GTHost|
+|4|109.228.64.226|81|Montenegro|Berane|Crnogorski Telekom A.D. Podgorica|
+|5|181.188.156.173|3128|Bolivia|Santa Cruz|Telefónica Celular de Bolivia S.A.|
+|6|34.123.72.66|3128|United States|Council Bluffs|Google LLC|
+|7|103.200.112.112|8123|Hong Kong|Tseung Kwan O|Shanghai Huajuan Information Technology Co., Ltd.|
+|8|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|9|69.164.193.145|3129|United States|Richardson|Linode, LLC|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|66.175.221.108|3129|United States|Fremont|Linode, LLC|
+|12|44.200.212.199|3128|United States|Ashburn|Amazon.com|
+|13|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
+|14|45.148.145.108|3128|Netherlands|Dronten|Serverius|
+|15|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|16|44.204.136.204|3128|United States|Ashburn|Amazon.com|
+|17|126.125.40.75|8080|Japan|Sonobe|Softbank BB Corp.|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|116.103.132.140|10002|Vietnam|Buon Ma Thuot|Viettel Corporation|
+|20|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
 
 
 
