@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5551** proxies at the latest update. Usable proxies are below.
+> Scraper found **5361** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|445|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|445|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|445|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|434|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|434|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|434|
 
 ## Sources
 
@@ -32,8 +32,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1038|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1148|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|516|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2646|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|3|91.185.20.162|3128|Kazakhstan|Astana|TTC Network|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
 |4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|5|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|6|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|7|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
-|8|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|9|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
-|10|176.192.80.10|3128|Russia|Moscow|Net By Net Holding LLC|
-|11|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|12|150.139.206.218|1080|China|Xintai|Qingdao, |
-|13|173.219.112.85|8080|United States|Chicago|Suddenlink Communications|
-|14|8.242.172.174|8080|Colombia|Santiago de Cali|CTL Colombia|
-|15|212.156.123.218|8080|Turkey|Istanbul|Turk Telekomunikasyon A.S|
-|16|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|17|103.36.35.135|8080|Indonesia|Kampungbali|PT Mora Telematika Indonesia|
-|18|103.151.177.106|80|Indonesia|Jakarta|PT JASAMARGA TOLLROAD OPERATOR|
-|19|195.178.197.20|8080|Russia|Podolsk|IIP|
-|20|38.242.158.170|3128|Turkey|Diyarbakır|Cogent Communications|
+|5|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|8|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|9|116.58.239.202|53281|Thailand|Ban Kao|CAT-BB|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|12|103.16.224.226|10009|Vietnam|Hanoi|ATH|
+|13|103.155.197.36|8080|Indonesia|Sukabumi|JEMBATANDATA|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|16|138.201.133.253|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|17|51.159.28.133|8000|France|Paris|SCALEWAY|
+|18|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|19|203.134.66.85|3128|Australia|North Sydney|Vocus PTY LTD|
+|20|91.185.20.162|3128|Kazakhstan|Astana|TTC Network|
 
 
 
