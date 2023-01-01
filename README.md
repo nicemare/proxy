@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6240** proxies at the latest update. Usable proxies are below.
+> Scraper found **6397** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|390|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|390|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|390|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|593|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|593|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|593|
 
 ## Sources
 
@@ -33,36 +33,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1353|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1458|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|733|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2803|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2855|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
-|2|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|3|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|4|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|5|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|6|145.239.81.246|3128|Poland|Wroclaw|OVH SAS|
-|7|147.139.163.141|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|8|161.35.239.218|3128|United States|Santa Clara|DigitalOcean, LLC|
-|9|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|10|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|149.129.247.230|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|13|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|14|35.221.104.58|3128|Japan|Tokyo|Google LLC|
-|15|147.139.193.92|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|16|130.185.225.240|3128|Bulgaria|Sofia|Telepoint Ltd|
-|17|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|18|116.103.16.5|4007|Vietnam|Da Nang|Viettel Corporation|
-|19|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
-|20|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|3|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|157.245.156.12|443|Singapore|Singapore|DigitalOcean, LLC|
+|6|103.200.112.112|8123|Hong Kong|Tseung Kwan O|Shanghai Huajuan Information Technology Co., Ltd.|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|9|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
+|10|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|147.139.176.149|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|12|147.139.192.225|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|13|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|16|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|17|143.198.124.177|3128|United States|North Bergen|DigitalOcean, LLC|
+|18|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|19|162.211.181.130|808|United States|Los Angeles|Intercontinental Internet Data Corp|
+|20|161.35.239.218|3128|United States|Santa Clara|DigitalOcean, LLC|
 
 
 
