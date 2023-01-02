@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|251|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|251|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|251|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|314|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|314|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|314|
 
 ## Sources
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|50.236.203.15|8080|United States|Peru|Comcast Cable Communications, LLC|
-|4|187.17.228.98|3128|Brazil|Louveira|Lantec Comunicacao Multimidia Ltda|
-|5|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|6|61.216.156.222|60808|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
-|7|170.83.242.250|999|Paraguay|Asunción|Ufinet Panama S.A.|
-|8|205.185.113.252|8080|United States|Las Vegas|FranTech Solutions|
-|9|50.232.250.157|8080|United States|Bellingham|Comcast Cable Communications, LLC|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|45.14.165.146|3128|United States|Reston|Delis LLC|
-|12|16.163.140.80|80|Hong Kong|Hong Kong|Amazon.com|
-|13|194.180.48.139|3128|United States|Ashburn|Delis LLC|
-|14|46.101.75.156|8005|United Kingdom|London|DigitalOcean|
-|15|80.194.38.106|3333|United Kingdom|London|Virgin Media Limited|
-|16|95.56.254.139|3128|Kazakhstan|Almaty|JSC Kazakhtelecom|
-|17|51.158.154.173|3128|France|Paris|SCALEWAY|
-|18|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
-|19|205.185.113.252|8080|United States|Las Vegas|FranTech Solutions|
-|20|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|1|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|45.171.146.66|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
+|4|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|7|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|8|45.14.165.134|3128|United States|Reston|Delis LLC|
+|9|45.14.165.148|3128|United States|Reston|Delis LLC|
+|10|45.14.165.146|3128|United States|Reston|Delis LLC|
+|11|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|12|181.129.183.19|53281|Colombia|Bucaramanga|EPM Telecomunicaciones S.A. E.S.P.|
+|13|136.243.138.231|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|45.14.165.148|3128|United States|Reston|Delis LLC|
+|16|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|17|194.44.93.102|3128|Ukraine|Rivne|CIS-RV|
+|18|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
+|19|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|20|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
 
 
 
