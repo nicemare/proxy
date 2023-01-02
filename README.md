@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5599** proxies at the latest update. Usable proxies are below.
+> Scraper found **5551** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|487|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|487|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|487|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|301|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|301|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|301|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1299|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1188|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|464|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|527|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2485|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|34.84.72.91|3128|Japan|Tokyo|Google LLC|
-|3|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
-|6|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|8|206.189.131.53|443|India|Bengaluru|DigitalOcean, LLC|
-|9|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
-|10|157.245.156.12|443|Singapore|Singapore|DigitalOcean, LLC|
-|11|167.99.250.119|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|174.138.116.12|80|United States|Clifton|DigitalOcean, LLC|
-|13|45.234.2.255|9898|Brazil|Cascavel|Mundial Telecomunicacao Ltda - ME|
-|14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|15|41.162.79.98|3128|South Africa|Durban|Neotel GAU|
-|16|149.62.177.106|5555|Spain|Madrid|Avatel Telecom|
-|17|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|18|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|19|191.242.230.135|8080|Brazil|Farroupilha|Domi Informatica|
-|20|181.129.52.154|42648|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|1|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|2|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|3|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|4|174.138.116.12|80|United States|Clifton|DigitalOcean, LLC|
+|5|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|6|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|7|149.62.177.106|5555|Spain|Madrid|Avatel Telecom|
+|8|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|9|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|10|200.13.22.210|80|Mexico|Silao|Marcatel Com, S.A. de C.V.|
+|11|138.201.133.253|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|12|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|13|51.158.154.173|3128|France|Paris|SCALEWAY|
+|14|5.78.43.246|80|United States|Portland|Hetzner Online GmbH|
+|15|157.230.36.51|443|Singapore|Singapore|DigitalOcean, LLC|
+|16|103.223.15.150|3128|India|Mohali|Fastway Shree Neelkanth Network Pvt. Ltd|
+|17|103.6.177.174|8002|Hong Kong|Central|HKBN Enterprise Solutions HK Limited|
+|18|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|19|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|20|44.204.136.204|3128|United States|Ashburn|Amazon.com|
 
 
 
