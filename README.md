@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6649** proxies at the latest update. Usable proxies are below.
+> Scraper found **7009** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|228|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|228|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|228|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|787|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|787|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|787|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1755|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1968|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|803|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|950|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2740|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
-|3|34.146.64.228|3128|Japan|Tokyo|Google LLC|
-|4|77.236.252.187|1256|Russia|Moscow|JSC "ER-Telecom Holding"|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|83.220.47.146|8080|Russia|Moscow|GARS|
-|7|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|8|103.134.126.13|8888|Bangladesh|Manikchari|Md. Omar Faruk Monna|
-|9|157.100.52.150|999|Ecuador|Guayaquil|Nedetel S.A.|
-|10|121.139.218.165|31409|South Korea|Yongin-si|Korea Telecom|
-|11|180.94.75.162|8080|Afghanistan|Kabul|Government Communications Network|
-|12|187.17.228.98|3128|Brazil|Louveira|Lantec Comunicacao Multimidia Ltda|
-|13|144.49.96.255|8080|United States|Washington|Google LLC|
-|14|138.36.180.9|9292|Brazil|Birigui|FIT Telecom Eireli|
-|15|212.115.232.79|31280|Ukraine|Dnipro|ISP "Fregat"|
-|16|103.138.41.132|8080|Indonesia|Jakarta|PT. Bali Towerindo Sentra|
-|17|200.202.223.42|8080|Brazil|Araruama|V tal|
-|18|178.212.196.177|9999|Ukraine|Odesa|Southern Telecommunication Company Ltd.|
-|19|191.102.64.146|999|Colombia|Manizales|TV AZTECA SUCURSAL COLOMBIA|
-|20|95.154.104.147|44393|Russia|Vladivostok|Octopusnet Jurs|
+|1|100.20.117.118|8080|United States|Portland|Amazon.com, Inc.|
+|2|95.181.164.59|8080|Russia|Moscow|Yegor Andreevich trading as FLP Miglovets|
+|3|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|4|5.134.216.58|8080|Russia|Moscow|Wiland Network Russia|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|7|139.59.241.101|443|Singapore|Singapore|DigitalOcean, LLC|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|10|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|11|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|12|80.14.56.217|3128|France|Bourges|France Telecom|
+|13|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|43.243.142.60|59916|Indonesia|Tangerang|PT. Mora Telematika Indonesia|
+|16|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|17|192.210.196.65|9090|United States|San Jose|ColoCrossing|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|192.95.23.64|8088|United States|Newark|OVH Hosting|
+|20|122.155.9.114|8080|Thailand|Samphanthawong|CAT Telecom Public Company Limited|
 
 
 
