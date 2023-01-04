@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5089** proxies at the latest update. Usable proxies are below.
+> Scraper found **5583** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|234|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|234|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|234|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|372|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|372|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|372|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|982|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1476|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|353|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2403|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|89.175.164.38|8080|Russia|Moscow|MTS PJSC|
-|6|5.134.216.58|8080|Russia|Moscow|Wiland Network Russia|
-|7|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|9|20.228.134.234|8080|United States|Boydton|Microsoft Corporation|
-|10|203.115.106.84|8080|India|Greater Noida|PRIMENET|
-|11|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|61.7.171.221|8080|Thailand|Ban Pho|CAT Telecom Public Company Limited|
-|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|15|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|16|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|17|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|18|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
-|19|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|20|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
+|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|4|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|144.49.96.255|8080|United States|Washington|Google LLC|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|176.192.80.10|3128|Russia|Moscow|Net By Net Holding LLC|
+|9|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|10|47.74.226.8|5001|Singapore|Singapore|Alibaba Cloud (Singapore) Private Limited|
+|11|65.108.230.238|45581|Finland|Helsinki|Hetzner Online GmbH|
+|12|139.59.241.101|443|Singapore|Singapore|DigitalOcean, LLC|
+|13|182.253.109.83|8080|Indonesia|Semarang|Biznet Metronet|
+|14|103.19.130.50|8080|Bangladesh|Dhaka|InfoLink|
+|15|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|16|101.32.184.53|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|17|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|18|191.242.230.135|8080|Brazil|Farroupilha|Domi Informatica|
+|19|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|20|115.68.221.147|80|South Korea|Seoul|SMILESERV|
 
 
 
