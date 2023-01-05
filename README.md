@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6285** proxies at the latest update. Usable proxies are below.
+> Scraper found **6254** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|560|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|560|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|560|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1455|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1424|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|605|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2874|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|5|5.58.110.249|8080|Ukraine|Ternopil|Columbus|
-|6|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
-|7|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|8|95.0.90.243|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
-|9|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|92.62.141.219|3128|Lithuania|Kaunas|UAB "Baltnetos komunikacijos"|
-|12|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|13|145.40.121.15|3128|Brazil|São Paulo|Packet Host, Inc.|
-|14|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|15|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|16|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
-|17|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|18|206.189.131.53|443|India|Bengaluru|DigitalOcean, LLC|
-|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|20|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
+|1|207.5.79.174|3128|United States|Roseville|Network Innovations|
+|2|179.107.58.132|8080|Brazil|Morrinhos|FP Telecomunicacoes Ltda|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
+|5|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|6|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
+|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|8|145.40.121.15|3128|Brazil|São Paulo|Packet Host, Inc.|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|11|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|12|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
+|13|203.210.85.135|8080|Indonesia|Bandung|Infrastruktur STARNET|
+|14|187.45.127.87|20183|Brazil|Maravilha|Mhnet Telecom|
+|15|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|16|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|17|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|18|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
+|19|154.236.168.169|1981|Egypt|Kirdasah|Etisalat Misr|
+|20|176.192.70.58|8002|Russia|Moscow|Net By Net Holding LLC|
 
 
 
