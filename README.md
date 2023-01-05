@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5198** proxies at the latest update. Usable proxies are below.
+> Scraper found **5519** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|210|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|210|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|210|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|293|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|293|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|293|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|950|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1271|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|354|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2543|✅|
@@ -45,24 +45,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|159.192.249.98|8080|Thailand|Bangkok|CAT-BB|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|8|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|9|102.38.22.72|8080|Libya|Tripoli|GTA|
-|10|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|11|102.130.133.102|53281|South Africa|Johannesburg|JHB-MPLS|
-|12|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|13|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|14|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|15|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|16|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|17|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
-|18|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
-|19|51.158.154.173|3128|France|Paris|SCALEWAY|
-|20|35.221.104.58|3128|Japan|Tokyo|Google LLC|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|7|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|8|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
+|9|212.108.144.67|8080|Cyprus|Nicosia|Lifecell Digital LTD|
+|10|213.149.182.98|8080|Cyprus|Larnaca|CYTANET - Cyprus Telecommunications Authority|
+|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|12|46.0.203.186|8080|Russia|Novokuybyshevsk|JSC "ER-Telecom Holding"|
+|13|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|14|101.32.184.53|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|15|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|16|14.177.236.212|55443|Vietnam|Hanoi|VNPT|
+|17|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|18|189.90.255.208|3128|Brazil|Itabira|Companhia Itabirana Telecomunicações Ltda|
+|19|203.34.56.152|9002|China|Qingzhou|Cloud Computing Corporation|
+|20|154.64.211.145|999|Puerto Rico|Martorell|OSNET Wireless|
 
 
 
