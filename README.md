@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5861** proxies at the latest update. Usable proxies are below.
+> Scraper found **5946** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|410|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|410|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|410|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|548|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|548|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|548|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1200|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1285|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|595|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2715|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|5|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|6|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|1|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|2|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|3|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|4|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|8|162.223.88.61|8080|United States|Buffalo|ColoUp|
 |9|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|10|97.78.161.170|8123|United States|Livonia|Charter Communications, Inc|
-|11|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|12|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|14|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|15|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|16|109.207.76.37|8080|Israel|Petah Tikva|O.M.C. COMPUTERS & COMMUNICATIONS LTD|
-|17|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|18|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|11|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|97.78.161.170|8123|United States|Livonia|Charter Communications, Inc|
+|14|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|15|109.207.76.37|8080|Israel|Petah Tikva|O.M.C. COMPUTERS & COMMUNICATIONS LTD|
+|16|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|97.78.161.170|8123|United States|Livonia|Charter Communications, Inc|
 
 
 
