@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6622** proxies at the latest update. Usable proxies are below.
+> Scraper found **6528** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|634|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|634|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|634|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|551|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|551|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|551|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1639|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1545|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|741|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2891|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|109.207.76.37|8080|Israel|Petah Tikva|O.M.C. COMPUTERS & COMMUNICATIONS LTD|
-|3|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|5|192.210.196.65|9090|United States|San Jose|ColoCrossing|
-|6|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|7|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|8|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|9|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|12|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|13|159.223.14.199|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|14|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|15|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|17|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|18|180.211.158.122|58375|Bangladesh|Dhaka|Bangladesh Telecommunications Company Ltd.|
-|19|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|20|203.115.106.84|8080|India|Greater Noida|PRIMENET|
+|1|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|3|173.82.206.48|3128|United States|Los Angeles|Multacom Corporation|
+|4|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|6|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|54.173.137.254|8090|United States|Ashburn|Amazon.com, Inc.|
+|10|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|11|109.207.76.37|8080|Israel|Petah Tikva|O.M.C. COMPUTERS & COMMUNICATIONS LTD|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|41.186.44.106|3128|Rwanda|Kigali|MTN Rwandacell|
+|14|34.146.64.228|3128|Japan|Tokyo|Google LLC|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|54.173.137.254|8090|United States|Ashburn|Amazon.com, Inc.|
+|17|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|19|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|20|51.159.115.233|3128|France|Paris|SCALEWAY|
 
 
 
