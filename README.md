@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5317** proxies at the latest update. Usable proxies are below.
+> Scraper found **5356** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|205|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|205|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|205|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|253|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|253|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|253|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1071|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1110|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|318|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2577|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|109.206.252.234|80|Iran|Pardis County|Afagh Andish Dadeh Pardis Co. Ltd|
-|10|207.5.79.174|3128|United States|Roseville|Network Innovations|
-|11|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|12|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|13|145.40.121.165|3128|Brazil|São Paulo|Packet Host, Inc.|
-|14|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|15|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|16|183.221.242.103|9443|China|Mianyang|China Mobile|
-|17|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|18|163.172.84.250|9741|France|Paris|Online S.A.S.|
-|19|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|20|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|5|109.206.252.234|80|Iran|Pardis County|Afagh Andish Dadeh Pardis Co. Ltd|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|7|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|8|145.40.121.165|3128|Brazil|São Paulo|Packet Host, Inc.|
+|9|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|10|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|11|62.171.161.88|2018|Germany|Nuremberg|Contabo GmbH|
+|12|113.137.42.224|9002|China|Yintai|CHINANET SHAANXI province Cloud Base network|
+|13|36.99.60.117|9002|China|Yingchuan|China Telecom|
+|14|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
+|15|149.56.252.62|3128|Canada|Montreal|OVH Hosting|
+|16|51.158.154.173|3128|France|Paris|SCALEWAY|
+|17|181.115.67.9|999|Honduras|Tegucigalpa|Telgua|
+|18|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|19|52.253.83.186|8090|Singapore|Singapore|Microsoft Corporation|
+|20|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
 
 
 
