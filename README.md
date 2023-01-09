@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6401** proxies at the latest update. Usable proxies are below.
+> Scraper found **6044** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|313|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|313|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|313|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|551|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|551|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|551|
 
 ## Sources
 
@@ -32,8 +32,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1452|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1395|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|820|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2746|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|1|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|4|90.114.27.196|3128|France|Annemasse|TVCCONV|
-|5|145.40.121.157|3128|Brazil|São Paulo|Packet Host, Inc.|
-|6|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|9|18.183.236.4|3128|Japan|Tokyo|Amazon Technologies Inc.|
-|10|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
-|11|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|12|145.40.121.73|3128|Brazil|São Paulo|Packet Host, Inc.|
-|13|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|219.99.198.175|8080|Japan|Minatomachi|NSK Co., Ltd.|
-|16|94.20.38.130|3128|Azerbaijan|Baku|Delta Telecom|
-|17|145.40.121.147|3128|Brazil|São Paulo|Packet Host, Inc.|
-|18|108.187.44.120|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|19|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|20|14.241.225.167|443|Vietnam|Ho Chi Minh City|VNPT|
+|4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|9|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|45.130.141.205|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|161.77.218.163|3129|United States|Springfield|Crocker Communications|
+|14|213.233.182.38|8000|Iran|Tehran|SHARIF-EDU|
+|15|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|16|213.233.182.39|8000|Iran|Tehran|SHARIF-EDU|
+|17|108.187.44.120|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|18|141.147.158.11|8080|Japan|Osaka|Oracle Corporation|
+|19|181.205.106.106|9812|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
