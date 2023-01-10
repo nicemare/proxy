@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **7007** proxies at the latest update. Usable proxies are below.
+> Scraper found **7305** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|546|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|546|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|546|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|303|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|303|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|303|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1917|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2215|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|873|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3166|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|13.114.216.75|80|Japan|Tokyo|Amazon Technologies Inc|
-|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|8|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|9|157.230.36.51|443|Singapore|Singapore|DigitalOcean, LLC|
-|10|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|11|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|12|135.12.203.55|3128|United States|Sterling|Carrytel|
-|13|135.12.199.7|3128|United States|Sterling|Carrytel|
-|14|88.255.102.116|8080|Turkey|Adana|TurkTelekom|
-|15|135.12.200.247|3128|United States|Sterling|Carrytel|
-|16|106.58.208.158|9002|China|Jianshui|Chinanet|
-|17|135.12.196.146|3128|United States|Sterling|Carrytel|
-|18|27.150.22.6|9002|China|Qingzhou|Fuzhou|
-|19|139.255.61.166|8080|Indonesia|Tangerang|PT. LINKNET|
-|20|188.132.222.37|8080|Turkey|Umraniye|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|1|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|2|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|3|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|4|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|5|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|9|34.146.64.228|3128|Japan|Tokyo|Google LLC|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|135.12.198.38|3128|United States|Sterling|Carrytel|
+|12|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|13|166.104.231.44|8888|South Korea|Ansan-si|Hanyang University|
+|14|103.179.139.115|8080|Indonesia|Jakarta|PT. Fiber Networks Indonesia|
+|15|45.156.29.153|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
+|16|106.227.49.130|9002|China|Dunhou|China Telecom|
+|17|135.12.198.197|3128|United States|Sterling|Carrytel|
+|18|45.181.122.74|999|Chile|Santiago|Interpit Telecomunicaciones Ltda|
+|19|201.71.2.112|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|20|103.248.93.5|8080|India|Delhi|Ani Network Pvt Ltd|
 
 
 
