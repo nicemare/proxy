@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **7294** proxies at the latest update. Usable proxies are below.
+> Scraper found **7404** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|788|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|788|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|788|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|556|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|556|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|556|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1631|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1741|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|924|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3388|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.79.50.46|9300|Canada|Victoria|OVH SAS|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|4|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|5|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|6|135.12.205.39|3128|United States|Sterling|Carrytel|
-|7|135.12.194.95|3128|United States|Sterling|Carrytel|
-|8|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
-|9|135.12.192.142|3128|United States|Sterling|Carrytel|
-|10|135.12.192.66|3128|United States|Sterling|Carrytel|
-|11|135.12.199.245|3128|United States|Sterling|Carrytel|
-|12|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
-|13|135.12.200.138|3128|United States|Sterling|Carrytel|
-|14|135.12.192.81|3128|United States|Sterling|Carrytel|
-|15|135.12.206.134|3128|United States|Sterling|Carrytel|
-|16|135.12.197.59|3128|United States|Sterling|Carrytel|
-|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|18|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
-|19|135.12.196.137|3128|United States|Sterling|Carrytel|
-|20|135.12.207.129|3128|United States|Sterling|Carrytel|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|149.56.95.184|80|Canada|Montreal|OVH Hosting|
+|3|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|5|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|6|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|7|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|8|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|9|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|10|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
+|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|12|94.20.38.130|3128|Azerbaijan|Baku|Delta Telecom|
+|13|202.180.20.10|55443|Indonesia|Jakarta|PT. HIPERNET INDODATA|
+|14|36.90.105.55|3128|Indonesia|Samarinda|PT. Telekomunikasi Indonesia|
+|15|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|16|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|17|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|18|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|19|188.40.20.151|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|20|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 
 
 
