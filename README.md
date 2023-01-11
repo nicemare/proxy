@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5300** proxies at the latest update. Usable proxies are below.
+> Scraper found **5724** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|206|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|206|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|206|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|213|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|213|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|213|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|778|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1202|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|367|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2804|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|2|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|9|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
-|13|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
-|14|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|15|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|49.176.208.135|8080|Australia|Sydney|SingTel Optus Pty Ltd|
-|17|185.56.156.17|8080|Italy|Milan|HAL Service SpA|
-|18|116.203.126.53|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|19|182.253.109.87|8080|Indonesia|Semarang|Biznet Metronet|
-|20|183.172.81.32|7891|China|Haidian|CERNET|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|5|36.85.112.99|8080|Indonesia|Parit Bugis|PT. TELKOM INDONESIA|
+|6|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
+|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|8|5.9.139.204|25000|Germany|Falkenstein|Hetzner Online GmbH|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|11|118.69.176.168|8080|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|14|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|15|190.186.18.161|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|16|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|17|201.71.2.41|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|18|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
+|19|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|20|38.123.207.247|999|Mexico|Mexico City|Cogent Communications|
 
 
 
