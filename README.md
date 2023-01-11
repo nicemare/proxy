@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6988** proxies at the latest update. Usable proxies are below.
+> Scraper found **6595** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|551|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|551|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|551|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|370|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|370|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|370|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1375|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1286|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1075|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|771|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3187|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|1|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
 |2|134.238.252.143|8080|India|Mumbai|Google LLC|
-|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|4|3.89.143.207|8080|United States|Ashburn|Amazon Technologies Inc.|
-|5|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
-|6|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|52.23.175.222|8118|United States|Ashburn|Amazon.com, Inc.|
-|9|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|10|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|13|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|14|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
-|17|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|18|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|20|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|5|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|6|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|34.146.19.255|3128|Japan|Tokyo|Google LLC|
+|9|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|10|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
+|11|45.86.70.163|3333|United States|Los Angeles|DediPath|
+|12|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|13|82.114.97.157|1256|Russia|St Petersburg|Enforta-MSK|
+|14|3.89.143.207|8080|United States|Ashburn|Amazon Technologies Inc.|
+|15|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
+|16|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|17|108.187.44.89|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|18|5.160.123.140|514|Iran|Tehran|Respina Networks & Beyond PJSC|
+|19|187.73.68.14|53281|Brazil|Belo Horizonte|Vero S.A|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
