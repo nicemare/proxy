@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **6121** proxies at the latest update. Usable proxies are below.
+> Scraper found **6136** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|401|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|401|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|401|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|370|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|370|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|370|
 
 ## Sources
 
@@ -33,9 +33,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1188|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1501|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|857|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|559|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2725|✅|
 
 
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|4|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|5.9.139.204|24000|Germany|Falkenstein|Hetzner Online GmbH|
-|7|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|9|213.233.182.38|8000|Iran|Tehran|SHARIF-EDU|
-|10|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|11|185.49.170.20|43626|Spain|Madrid|OLIVE|
-|12|14.140.131.82|3128|India|Ahmedabad|Tata Communications Limited|
-|13|45.231.221.193|999|Mexico|Tijuana|Distrokom S De RL De CV|
-|14|189.90.249.80|9999|Brazil|Rio Piracicaba|Companhia Itabirana Telecomunicações Ltda|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|111.225.153.99|8089|China|Gaocheng|Chinanet|
-|17|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|18|200.13.22.210|80|Mexico|Silao|Marcatel Com, S.A. de C.V.|
-|19|95.167.29.50|8080|Russia|Kronstadt|PJSC Rostelecom|
-|20|154.113.32.17|8080|Nigeria|Lagos|Mainone Cable Company|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|5.9.139.204|24000|Germany|Falkenstein|Hetzner Online GmbH|
+|3|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|110.78.81.107|8080|Thailand|Don Chan|CAT Telecom Public Company Limited|
+|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|8|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|13|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|14|212.80.213.94|8000|Thailand|Nonthaburi|Siamdata Communication Co.|
+|15|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|16|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|17|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|18|186.188.100.243|999|Venezuela|Araure|Corporación Telemic C.A.|
+|19|14.140.131.82|3128|India|Ahmedabad|Tata Communications Limited|
+|20|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
 
 
 
