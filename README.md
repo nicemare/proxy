@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5848** proxies at the latest update. Usable proxies are below.
+> Scraper found **5881** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|356|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|356|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|356|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|336|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|336|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|336|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1172|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1205|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|672|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2653|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|4|217.64.14.180|8080|Czechia|Brno|GiTy, a.s.|
-|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|1|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|2|35.200.4.163|3128|Japan|Tokyo|Google LLC|
+|3|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
 |6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|145.40.73.104|80|Singapore|Singapore|Packet Host, Inc.|
-|9|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
-|10|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|12|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|13|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|16|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
-|17|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
-|18|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|19|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|20|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|7|130.185.238.199|8089|Brazil|Campina Grande|B Host Brasil - Internet Datacenter|
+|8|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|9|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|10|184.155.36.194|8080|United States|Pocatello|CABLE ONE, INC.|
+|11|50.235.149.74|8080|United States|Pittsburgh|Comcast Cable Communications, LLC|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|45.84.241.2|3128|India|Mumbai|VeloxServ Communications Ltd|
+|14|200.32.51.179|8080|Argentina|Mar del Plata|Telefonica de Argentina|
+|15|200.13.22.210|80|Mexico|Silao|Marcatel Com, S.A. de C.V.|
+|16|131.106.216.130|8080|United States|Evansville|RCN|
+|17|196.216.65.57|8080|Kenya|Nairobi|Liquid Telecommunications Ltd|
+|18|176.192.80.10|3128|Russia|Moscow|Net By Net Holding LLC|
+|19|182.90.224.115|3128|China|Beihai|China Unicom Guangxi Province Network|
+|20|5.9.139.204|20000|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
