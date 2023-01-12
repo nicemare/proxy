@@ -8,7 +8,7 @@
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
 
-> Scraper found **5978** proxies at the latest update. Usable proxies are below.
+> Scraper found **6151** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -17,9 +17,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|338|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|338|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|338|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|330|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|330|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|330|
 
 ## Sources
 
@@ -33,7 +33,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1181|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1354|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|712|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2734|✅|
@@ -43,26 +43,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|3|5.9.139.204|20000|Germany|Falkenstein|Hetzner Online GmbH|
 |4|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|5|47.245.33.104|12345|Japan|Tokyo|Alibaba.com LLC|
-|6|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|7|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|8|23.229.80.100|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|9|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|10|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|11|64.225.8.82|9999|United States|Clifton|DigitalOcean, LLC|
-|12|5.9.139.204|24000|Germany|Falkenstein|Hetzner Online GmbH|
-|13|36.93.120.207|80|Indonesia|Jakarta|Telekomunikasi Indonesia|
-|14|186.67.192.246|8080|Chile|Temuco|Entel Chile S.A.|
-|15|116.202.165.119|3124|Germany|Falkenstein|Hetzner Online GmbH|
-|16|20.121.184.238|443|United States|Boydton|Microsoft Corporation|
-|17|154.72.74.210|80|Tanzania|Dar es Salaam|Liquid Telecommunications Ltd|
-|18|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|19|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|20|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|5|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
+|6|191.97.6.211|999|Colombia|Solano|TV AZTECA SUCURSAL COLOMBIA|
+|7|195.201.147.185|8084|Germany|Gunzenhausen|Hetzner Online GmbH|
+|8|23.229.80.47|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|9|23.229.80.219|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|10|23.229.80.149|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|12|62.171.189.81|80|Germany|Nuremberg|Contabo GmbH|
+|13|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
+|14|128.199.67.35|80|Singapore|Singapore|DigitalOcean, LLC|
+|15|95.0.90.243|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|16|103.243.114.206|8080|India|Beed|Gazon Communications India Limited|
+|17|23.229.80.7|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|18|188.133.152.125|8080|Russia|Moscow|Enforta-MSK|
+|19|86.110.27.165|3128|Russia|Moscow|Digit One LLC|
+|20|46.191.235.167|443|Russia|Ufa|JSC "Ufanet"|
 
 
 
